@@ -1,0 +1,17 @@
+name: Test
+
+# run on every push and pr
+on: [push, pull_request]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install and build
+        run: |
+          npm install
+          npm run build

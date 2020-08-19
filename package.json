@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@mdx-js/mdx": "^1.6.7",
+    "@mdx-js/react": "^1.6.7",
+    "@reach/router": "^1.3.4",
+    "@types/react-helmet": "^6.1.0",
+    "acorn": "^6.4.1",
+    "autoprefixer": "^9.8.6",
+    "gatsby": "^2.24.3",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-graphql-codegen": "^2.7.1",
+    "gatsby-plugin-mdx": "^1.2.26",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-typescript": "^2.4.14",
+    "gatsby-source-filesystem": "^2.3.19",
+    "moment": "^2.27.0",
+    "postcss-cli": "^7.1.1",
+    "pure-react-carousel": "^1.27.1",
+    "react": "^16.13.1",
+    "react-animate-height": "^2.0.23",
+    "react-collapse": "^5.0.1",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-helmet": "^6.1.0",
+    "react-player": "^2.5.0",
+    "react-refresh": "^0.8.3",
+    "tailwindcss": "^1.6.2",
+    "typeface-inconsolata": "0.0.72",
+    "typeface-noto-serif": "0.0.72",
+    "typeface-nunito": "^1.1.3",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "build:tailwind": "postcss src/tailwind.css -o src/tailwind.generated.css",
+    "watch:tailwind": "postcss -w src/tailwind.css -o src/tailwind.generated.css",
+    "dev:gatsby": "gatsby develop",
+    "prebuild": "npm run build:tailwind",
+    "build": "gatsby build",
+    "dev": "npm run watch:tailwind & npm run dev:gatsby",
+    "lint": "eslint --fix src/**/*.{ts,tsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/mdx-js__react": "^1.5.2",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-collapse": "^5.0.0",
+    "@types/react-dom": "^16.9.0",
+    "husky": "^4.2.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

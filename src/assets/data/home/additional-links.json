@@ -1,0 +1,22 @@
+{
+  "publications": {
+    "1": {
+      "link": "https://www.researchgate.net/profile/Jiyun_Song",
+      "title": "Prof. Song's profile on Research Gate"
+    },
+    "2": {
+      "link": "https://orcid.org/0000-0002-9483-0501",
+      "title": "Prof. Song's profile on ORCID"
+    },
+    "3": {
+      "link": "https://scholar.google.com/citations?user=phyC5cgAAAAJ&hl=en&oi=ao",
+      "title": "Prof. Song's profile on Google Scholar"
+    }
+  },
+  "otherLinks": {
+    "1": {
+      "link": "https://www.mech.hku.hk/academic-staff/Song-J.",
+      "title": "Prof. Song's from HKU Mechanical Engineering Department"
+    }
+  }
+}

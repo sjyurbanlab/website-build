@@ -1,0 +1,35 @@
+{
+  "avatar": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/jiyunsong/Jiyun+Song.png",
+  "firstName": "Jiyun",
+  "lastName": "Song",
+  "salutation": "Prof./Dr.",
+  "position": "Lab Lead",
+  "email": "jsong90@hku.hk",
+  "introduction": [
+    "Dr. Song is the team leader of Healthy Cities Laboratory in the Department of Mechanical Engineering at the University of Hong Kong (HKU). She joined HKU as an Assistant Professor in Aug 2019 and became the youngest PhD advisor in the department at the age of 29. She also serves as a committee member in the Department of Geography at HKU. Before joining HKU, she worked as a postdoctoral research associate in the Department of Applied Mathematics and Theoretical Physics (DAMTP) at the University of Cambridge, UK from Jan 2017 to Jul 2019. She completed her PhD degree in Civil and Environmental Engineering at Arizona State University, US in Dec 2016 with COAA Best PhD Dissertation Award and Chinese Government Award for Outstanding Overseas Students of Year 2016. She received her bachelor’s and master’s degrees in Hydrology and Water Resources Engineering from Wuhan University, China in 2010 and 2012, respectively with first-class honours."
+  ],
+  "researchInterests": [
+    "Urban land-atmosphere interaction",
+    "Urban hydro-climate",
+    "Urban green infrastructure",
+    "Building energy efficiency",
+    "Urban fluid mechanics",
+    "Urban health"
+  ],
+  "academicMemberships": [
+    "American Geophysical Union (AGU)",
+    "American Meteorological Society (AMS)",
+    "International Association for Urban Climate (IAUC)",
+    "UK Fluids Network - Special Interests Group: Urban Fluid Mechanics Network and Low-Energy Ventilation Network"
+  ],
+  "professionalMemberships": [
+    "ISO expert observer representing Hong Kong under the panel of ISO/TC 163 “Thermal performance and energy use in the built environment”",
+    "Member of Expanded Building Committee at Buildings Department, The Government of the Hong Kong Special Administrative Region"
+  ],
+  "teachingList": [
+    "MECH 3408 Mechanics of Fluids (Coordinator)",
+    "MECH 2414 Thermofluids",
+    "ENVM 8013 Air and noise pollution control and management (Coordinator)",
+    "MECH 6026 Computational fluid dynamics"
+  ]
+}

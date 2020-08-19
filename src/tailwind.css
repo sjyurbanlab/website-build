@@ -1,0 +1,79 @@
+@tailwind base;
+
+/*base styles*/
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-3xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-semibold;
+}
+
+h4 {
+  @apply text-xl font-extrabold;
+}
+
+h5 {
+  @apply text-lg;
+}
+
+a {
+  @apply font-semibold text-cobalt-blue;
+}
+
+a:hover {
+  @apply text-cobalt-blue-dark underline;
+}
+
+@tailwind components;
+
+/*class extraction*/
+.button {
+  @apply px-4 py-4 rounded text-sm font-bold uppercase;
+}
+
+.button-emerald-green {
+  @apply text-white bg-emerald-green;
+}
+
+.button-emerald-green:hover {
+  @apply bg-emerald-green-light;
+}
+
+.button-cobalt-blue {
+  @apply text-white bg-cobalt-blue;
+}
+
+.button-cobalt-blue:hover {
+  @apply bg-cobalt-blue-light;
+}
+
+.button-razzmatazz-red {
+  @apply text-white bg-razzmatazz-red;
+}
+
+.button-razzmatazz-red:hover {
+  @apply bg-razzmatazz-red-light;
+}
+
+.button-mustard-yellow {
+  @apply text-jet-black bg-mustard-yellow;
+}
+
+.button-mustard-yellow:hover {
+  @apply bg-mustard-yellow-light;
+}
+
+.button-jet-black {
+  @apply text-white bg-jet-black;
+}
+
+.button-jet-black:hover {
+  @apply bg-jet-black-light;
+}
+
+@tailwind utilities;

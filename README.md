@@ -16,13 +16,13 @@ Once you have an account, you can log into CodeSandbox with the same credentials
 
 A repository is basically a cloud drive folder that manages software code.
 
-To begin working,
+To begin working, [open this CodeSandbox sandbox](). If this is your first time using CodeSandbox, you would be asked to sign up with a new account; for that, use your Github credentials.
 
-1. import the github repository into CodeSandbox by pasting [https://github.com/sjyurbanlab/sjyurbanlab.github.io.git](https://github.com/sjyurbanlab/sjyurbanlab.github.io.git) into the web page opened at [codesandbox](https://codesandbox.io/s/github).
+You may encounter permission errors; that's because you need to be invited into sjyurbanlab workspace. Please ask Dr Song to invite you.
 
-- you may need to login first, before actually importing
+Make sure to commit your code to the `master` branch after you have updated something.
 
-2.
+<hr />
 
 ### Setup Local Development
 

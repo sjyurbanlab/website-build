@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "website-sandbox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -73,5 +73,7 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

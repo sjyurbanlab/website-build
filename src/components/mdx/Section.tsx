@@ -3,17 +3,17 @@ import React, { FC, ReactNode } from 'react';
 interface SectionProps {
   children: ReactNode;
   className?: string;
-  shouldOverrideClassName?: boolean;
+  largerSpacing?: boolean;
 }
 
 export const Section: FC<SectionProps> = ({
   children,
   className,
-  shouldOverrideClassName,
+  largerSpacing,
   ...props
 }) => (
   <div
-    className={shouldOverrideClassName ? `${className}` : `mt-4 ${className}`}
+    className={`${largerSpacing ? 'mt-12' : 'mt-8'} ${className}`}
     {...props}
   >
     {children}

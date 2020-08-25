@@ -11,7 +11,7 @@
     "acorn": "^6.4.1",
     "autoprefixer": "^9.8.6",
     "axios": "^0.20.0",
-    "gatsby": "^2.24.3",
+    "gatsby": "^2.24.49",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-graphql-codegen": "^2.7.1",
     "gatsby-plugin-mdx": "^1.2.26",

@@ -1,2 +1,3 @@
 export { AppHeadline } from './AppHeadline';
-export { Title } from './Title';
+export { Title, SubTitle } from './title';
+export { Image, InnerImage } from './image';

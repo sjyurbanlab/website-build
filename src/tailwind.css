@@ -33,7 +33,7 @@ a:hover {
 
 /*class extraction*/
 .button {
-  @apply px-4 py-4 rounded text-sm font-bold uppercase;
+  @apply px-4 py-2 rounded text-sm font-bold uppercase;
 }
 
 .button-emerald-green {

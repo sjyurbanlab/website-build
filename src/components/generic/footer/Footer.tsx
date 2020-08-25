@@ -1,9 +1,35 @@
-import React, { FC } from 'react';
+import React, { FC, useContext, useEffect, useState } from 'react';
+import axios from 'axios';
+import moment from 'moment';
+
+import { LoadingContext } from '@utilities/LoadingContext';
 
 import { PageContainer } from '@components/layout';
 import { colorfulGreenBackgroundImage } from '@assets/images';
 
 export const Footer: FC = () => {
+  const {isLoading} = useContext(LoadingContext);
+
+  const [lastUpdated, setLastUpdated] = useState<{
+    authorName: string;
+    date: Date;
+  }>();
+
+  useEffect(() => {
+    const fetchLastCommit = async () => {
+      const baseUrl = `https://api.github.com/repos/sjyurbanlab/website-build/git`;
+      const refResponse = await axios.get(
+        `${baseUrl}/matching-refs/heads/master`
+      );
+      const commitSha: string = refResponse.data[0].object.sha;
+      const commitResponse = await axios.get(`${baseUrl}/commits/${commitSha}`);
+      const { name: authorName, date } = commitResponse.data.author;
+      setLastUpdated({ authorName, date: new Date(date) });
+    };
+    if (!isLoading)
+      fetchLastCommit().then();
+  }, [isLoading]);
+
   const contactEmail = `jsong90@hku.hk`;
 
   return (
@@ -28,17 +54,24 @@ export const Footer: FC = () => {
               </p>
             </div>
 
-            {/* contact us */}
-            <div className={'mt-4 lg:mt-0 lg:ml-4 lg:text-right lg:flex-none'}>
-              <h4>Contact us</h4>
-              <p>
-                <Link href={`mailto:${contactEmail}`}>{contactEmail}</Link>
-              </p>
-              <p>
-                <Link href={'https://goo.gl/maps/ZBQijMcThx2nE5r2A'}>
-                  The University of Hong Kong Haking Wong Building LG
-                </Link>
-              </p>
+            {/* contact us and site last updated */}
+            <div className={'mt-4 lg:mt-0 lg:ml-4 lg:text-right lg:flex-none space-y-2'}>
+              <div>
+                <h4>Contact us</h4>
+                <p>
+                  <Link href={`mailto:${contactEmail}`}>{contactEmail}</Link>
+                </p>
+                <p>
+                  <Link href={'https://goo.gl/maps/ZBQijMcThx2nE5r2A'}>
+                    The University of Hong Kong Haking Wong Building LG
+                  </Link>
+                </p>
+              </div>
+              {lastUpdated && (
+                <p className={'text-sm'}>{`This site was last updated on ${moment(
+                  lastUpdated.date
+                ).calendar()} by ${lastUpdated.authorName}.`}</p>
+              )}
             </div>
           </div>
 

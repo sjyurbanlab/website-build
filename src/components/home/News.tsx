@@ -36,13 +36,16 @@ export const News: FC = () => {
               />
             )}
             <p className={'font-semibold'}>{title}</p>
-            <p className={'mt-1 text-sm text-gray-600 font-light'}>{content}</p>
-            <p className={'mt-2 text-sm font-semibold text-right'}>
-              By {author}{' '}
-              <span className={'ml-2 text-xs text-gray-500'}>
+            <p className={'mt-1 text-sm text-gray-700 font-light'}>{content}</p>
+            <div className={'mt-2 flex items-baseline justify-between text-sm font-semibold'}>
+              <p className={'text-cobalt-blue'}>{link ? 'See more' : ''}</p>
+              <p>
+                By {author}{' '}
+                <span className={'ml-2 text-xs text-gray-500'}>
                 {moment(date).calendar()}
               </span>
-            </p>
+              </p>
+            </div>
           </div>
         ))}
       </div>

@@ -8,7 +8,7 @@ import { PageContainer } from '@components/layout';
 import { colorfulGreenBackgroundImage } from '@assets/images';
 
 export const Footer: FC = () => {
-  const {isLoading} = useContext(LoadingContext);
+  const { isLoading } = useContext(LoadingContext);
 
   const [lastUpdated, setLastUpdated] = useState<{
     authorName: string;
@@ -26,8 +26,7 @@ export const Footer: FC = () => {
       const { name: authorName, date } = commitResponse.data.author;
       setLastUpdated({ authorName, date: new Date(date) });
     };
-    if (!isLoading)
-      fetchLastCommit().then();
+    if (!isLoading) fetchLastCommit().then();
   }, [isLoading]);
 
   const contactEmail = `jsong90@hku.hk`;
@@ -55,7 +54,11 @@ export const Footer: FC = () => {
             </div>
 
             {/* contact us and site last updated */}
-            <div className={'mt-4 lg:mt-0 lg:ml-4 lg:text-right lg:flex-none space-y-2'}>
+            <div
+              className={
+                'mt-4 lg:mt-0 lg:ml-4 lg:text-right lg:flex-none space-y-2'
+              }
+            >
               <div>
                 <h4>Contact us</h4>
                 <p>
@@ -68,9 +71,9 @@ export const Footer: FC = () => {
                 </p>
               </div>
               {lastUpdated && (
-                <p className={'text-sm'}>{`This site was last updated on ${moment(
-                  lastUpdated.date
-                ).calendar()} by ${lastUpdated.authorName}.`}</p>
+                <p className={'text-sm'}>{`This site was last updated by ${
+                  lastUpdated.authorName
+                } ${moment(lastUpdated.date).calendar()}.`}</p>
               )}
             </div>
           </div>

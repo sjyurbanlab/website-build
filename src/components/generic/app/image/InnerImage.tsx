@@ -13,7 +13,7 @@ export const InnerImage: FC<InnerImageProps> = ({
   src,
   alt,
   isIntrinsicDimensions,
-                                                  isSensibleDimensions,
+  isSensibleDimensions,
   style,
   fallbackSrc,
 }) => {

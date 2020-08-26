@@ -1,11 +1,13 @@
 import React, { FC } from 'react';
 import moment from 'moment';
 
+import { SimpleCard } from '@components/generic';
+
 import { news } from '@assets/data';
 
 export const News: FC = () => {
   return (
-    <div className={'bg-white rounded-lg shadow-lg p-4'}>
+    <SimpleCard>
       <h4 className={'text-center'}>News</h4>
 
       <p
@@ -37,18 +39,22 @@ export const News: FC = () => {
             )}
             <p className={'font-semibold'}>{title}</p>
             <p className={'mt-1 text-sm text-gray-700 font-light'}>{content}</p>
-            <div className={'mt-2 flex items-baseline justify-between text-sm font-semibold'}>
+            <div
+              className={
+                'mt-2 flex items-baseline justify-between text-sm font-semibold'
+              }
+            >
               <p className={'text-cobalt-blue'}>{link ? 'See more' : ''}</p>
               <p>
                 By {author}{' '}
                 <span className={'ml-2 text-xs text-gray-500'}>
-                {moment(date).calendar()}
-              </span>
+                  {moment(date).calendar()}
+                </span>
               </p>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </SimpleCard>
   );
 };

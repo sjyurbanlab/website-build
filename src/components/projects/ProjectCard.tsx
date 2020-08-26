@@ -1,7 +1,8 @@
 import React, { FC, ReactNode } from 'react';
 import moment from 'moment';
-import { navigate } from 'gatsby';
 import { Calendar, DollarSign, Tag, UserPlus } from 'react-feather';
+
+import { HoverableLinkCard } from '@components/generic';
 
 interface CardProps {
   pageLink: string;
@@ -13,7 +14,7 @@ interface CardProps {
   projectEnd?: string;
 }
 
-export const Card: FC<CardProps> = ({
+export const ProjectCard: FC<CardProps> = ({
   pageLink,
   title,
   fundingBody,
@@ -25,12 +26,7 @@ export const Card: FC<CardProps> = ({
   const iconSize = '24px';
 
   return (
-    <div
-      className={
-        'border border-gray-500 rounded-lg shadow-lg p-8 cursor-pointer bg-white transition-transform duration-100 transform hover:scale-102'
-      }
-      onClick={() => navigate(pageLink)}
-    >
+    <HoverableLinkCard pageLink={pageLink}>
       <p className={'text-lg xl:text-xl font-semibold leading-tight'}>
         {title}
       </p>
@@ -75,7 +71,7 @@ export const Card: FC<CardProps> = ({
           />
         )}
       </div>
-    </div>
+    </HoverableLinkCard>
   );
 };
 

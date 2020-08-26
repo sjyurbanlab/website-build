@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 
+import { SimpleCard } from '@components/generic';
+
 import { additionalLinks } from '@assets/data';
 import { Link } from '@src/types/additionalLinks';
 
@@ -7,7 +9,7 @@ export const AdditionalLinks: FC = () => {
   const { publicationLinks, otherLinks } = additionalLinks;
 
   return (
-    <div className={'bg-white rounded-lg shadow-lg p-4'}>
+    <SimpleCard>
       <h4 className={'text-center'}>Additional Links</h4>
       <p
         className={
@@ -57,7 +59,7 @@ export const AdditionalLinks: FC = () => {
           </div>
         ) : null}
       </div>
-    </div>
+    </SimpleCard>
   );
 };
 

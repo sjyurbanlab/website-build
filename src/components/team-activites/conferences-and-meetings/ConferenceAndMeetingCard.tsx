@@ -49,7 +49,11 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
         ) : null}
 
         {/* details */}
-        <div className={'col-span-1 sm:col-span-2 p-8'}>
+        <div
+          className={`col-span-1 ${
+            photos?.length ? 'sm:col-span-2' : 'sm:col-span-3'
+          } p-8`}
+        >
           <p className={'text-lg xl:text-xl font-semibold leading-tight'}>
             {title}
           </p>
@@ -110,30 +114,51 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
                             </span>
                           </p>
                           <div className={'text-sm'}>
-                            {authors?.length ? (
-                              <p>
-                                {`Authors: `}
-                                {authors.map((author, index) => (
-                                  <span key={index}>{`${author}${
-                                    index !== authors.length - 1 ? ', ' : ''
-                                  }`}</span>
-                                ))}
-                              </p>
-                            ) : null}
-                            {externalCollaborators?.length ? (
-                              <p>
-                                {`External Collaborators: `}
-                                {externalCollaborators.map(
-                                  (collaborator, index) => (
-                                    <span key={index}>{`${collaborator}${
-                                      index !== externalCollaborators.length - 1
-                                        ? ', '
-                                        : ''
-                                    }`}</span>
-                                  )
-                                )}
-                              </p>
-                            ) : null}
+                            <div className={'grid grid-cols-3 col-gap-2'}>
+                              {authors?.length ? (
+                                <>
+                                  <div className={'col-span-1'}>
+                                    <p
+                                      className={'text-gray-500 text-right'}
+                                    >{`Authors: `}</p>
+                                  </div>
+                                  <div className={'col-span-2'}>
+                                    <p>
+                                      {authors.map((author, index) => (
+                                        <span key={index}>{`${author}${
+                                          index !== authors.length - 1
+                                            ? ', '
+                                            : ''
+                                        }`}</span>
+                                      ))}
+                                    </p>
+                                  </div>
+                                </>
+                              ) : null}
+                              {externalCollaborators?.length ? (
+                                <>
+                                  <div className={'col-span-1'}>
+                                    <p
+                                      className={'text-gray-500 text-right'}
+                                    >{`External collaborators: `}</p>
+                                  </div>
+                                  <div className={'col-span-2'}>
+                                    <p>
+                                      {externalCollaborators.map(
+                                        (collaborator, index) => (
+                                          <span key={index}>{`${collaborator}${
+                                            index !==
+                                            externalCollaborators.length - 1
+                                              ? ', '
+                                              : ''
+                                          }`}</span>
+                                        )
+                                      )}
+                                    </p>
+                                  </div>
+                                </>
+                              ) : null}
+                            </div>
                             {link && (
                               <a
                                 className={'block'}

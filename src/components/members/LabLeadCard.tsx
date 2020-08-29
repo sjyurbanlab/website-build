@@ -21,7 +21,7 @@ interface FancyCardProps {
   labLead: LabLead;
 }
 
-export const FancyCard: FC<FancyCardProps> = ({
+export const LabLeadCard: FC<FancyCardProps> = ({
   labLead: {
     avatar,
     firstName,
@@ -169,16 +169,13 @@ export const FancyCard: FC<FancyCardProps> = ({
                   </div>
                   <div>
                     <p className={'text-lg font-bold'}>{title}</p>
-                    <div className={'space-y-2'}>
+                    <ul className={'space-y-2'}>
                       {list.map((element, index) => (
-                        <div key={index} className={'flex'}>
-                          <div className={'p-2'}>
-                            <div className={'bg-white w-1 h-1 rounded-full'} />
-                          </div>
+                        <li key={index}>
                           <p>{element}</p>
-                        </div>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
                 </div>
               ))}

@@ -1,2 +1,2 @@
-export { Card } from './Card';
-export { FancyCard } from './FancyCard';
+export { MemberCard } from './MemberCard';
+export { LabLeadCard } from './LabLeadCard';

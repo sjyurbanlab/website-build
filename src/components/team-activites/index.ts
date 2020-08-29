@@ -1,1 +1,1 @@
-export { ConferenceAndMeetingCard } from './ConferenceAndMeetingCard';
+export { ConferenceAndMeetingCard } from './conferences-and-meetings';

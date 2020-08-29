@@ -8,8 +8,6 @@ import { conferencesAndMeetingsData } from '@assets/data/team-activities';
 import { ConferenceAndMeetingCard } from '@components/team-activites';
 
 export default function ConferencesAndMeetings() {
-  console.log(conferencesAndMeetingsData);
-
   return (
     <Layout>
       <SEO title={'Conferences and Meetings'} />

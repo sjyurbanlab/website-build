@@ -6,6 +6,10 @@ export {
   InnerImage,
   SimpleCard,
   HoverableLinkCard,
+  CardItemWithIcon,
 } from './app';
+
+export { PeriodStartEnd, Carousel } from './others';
+
 export { NavBar } from './nav';
 export { Footer } from './footer';

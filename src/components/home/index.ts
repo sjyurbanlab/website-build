@@ -1,4 +1,4 @@
 export { Introduction } from './introduction';
-export { Carousel } from './Carousel';
+export { ImageCarousel } from './ImageCarousel';
 export { News } from './News';
 export { AdditionalLinks } from './AdditionalLinks';

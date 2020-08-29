@@ -1,8 +1,11 @@
-import React, { FC, ReactNode } from 'react';
-import moment from 'moment';
+import React, { FC } from 'react';
 import { Calendar, DollarSign, Tag, UserPlus } from 'react-feather';
 
-import { HoverableLinkCard } from '@components/generic';
+import {
+  HoverableLinkCard,
+  CardItemWithIcon,
+  PeriodStartEnd,
+} from '@components/generic';
 
 interface CardProps {
   pageLink: string;
@@ -27,60 +30,43 @@ export const ProjectCard: FC<CardProps> = ({
 
   return (
     <HoverableLinkCard pageLink={pageLink}>
-      <p className={'text-lg xl:text-xl font-semibold leading-tight'}>
-        {title}
-      </p>
+      <div className={'p-8'}>
+        <p className={'text-lg xl:text-xl font-semibold leading-tight'}>
+          {title}
+        </p>
 
-      <div className={'m-4 space-y-4'}>
-        {fundingBody && (
-          <Item
-            icon={<Tag size={iconSize} />}
-            component={<p>{fundingBody}</p>}
-          />
-        )}
-        {fundingAmount && (
-          <Item
-            icon={<DollarSign size={iconSize} />}
-            component={<p>{fundingAmount}</p>}
-          />
-        )}
-        {investigators && (
-          <Item
-            icon={<UserPlus size={iconSize} />}
-            component={<p>{investigators}</p>}
-          />
-        )}
-        {projectStart && (
-          <Item
-            icon={<Calendar size={iconSize} />}
-            component={
-              <div className={'space-x-1'}>
-                <p className={'inline-block font-semibold'}>
-                  {moment(projectStart).format('MMMM YYYY')}
-                </p>
-                {projectEnd && (
-                  <>
-                    <p className={'inline-block'}>till</p>
-                    <p className={'inline-block'}>
-                      {moment(projectEnd).format('MMMM YYYY')}
-                    </p>
-                  </>
-                )}
-              </div>
-            }
-          />
-        )}
+        <div className={'m-4 space-y-4'}>
+          {fundingBody && (
+            <CardItemWithIcon
+              icon={<Tag size={iconSize} />}
+              component={<p>{fundingBody}</p>}
+            />
+          )}
+          {fundingAmount && (
+            <CardItemWithIcon
+              icon={<DollarSign size={iconSize} />}
+              component={<p>{fundingAmount}</p>}
+            />
+          )}
+          {investigators && (
+            <CardItemWithIcon
+              icon={<UserPlus size={iconSize} />}
+              component={<p>{investigators}</p>}
+            />
+          )}
+          {projectStart && (
+            <CardItemWithIcon
+              icon={<Calendar size={iconSize} />}
+              component={
+                <PeriodStartEnd
+                  start={new Date(projectStart)}
+                  end={projectEnd ? new Date(projectEnd) : undefined}
+                />
+              }
+            />
+          )}
+        </div>
       </div>
     </HoverableLinkCard>
   );
 };
-
-const Item: FC<{ icon: ReactNode; component: ReactNode }> = ({
-  icon,
-  component,
-}) => (
-  <div className={'flex items-center'}>
-    <div className={'text-emerald-green mr-4 md:mr-6'}>{icon}</div>
-    <div>{component}</div>
-  </div>
-);

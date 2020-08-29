@@ -14,7 +14,7 @@ export const defaultViewport: Viewport = {
   isMobileLandscape: false,
 };
 
-const smBreakpoint = 480;
+const smBreakpoint = 640;
 
 export const generateViewport = (window: Window): Viewport => ({
   width: window.innerWidth,

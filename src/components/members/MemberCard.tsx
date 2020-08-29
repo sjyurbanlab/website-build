@@ -1,8 +1,7 @@
 import React, { FC } from 'react';
-import moment from 'moment';
 import { Calendar, Coffee, FileText, Mail } from 'react-feather';
 
-import { Image } from '@components/generic';
+import { Image, PeriodStartEnd } from '@components/generic';
 
 import { Member } from '@src/types/member';
 import { avatarPlaceholder } from '@assets/images';
@@ -11,7 +10,7 @@ interface CardProps {
   member: Member;
 }
 
-export const Card: FC<CardProps> = ({
+export const MemberCard: FC<CardProps> = ({
   member: {
     avatar,
     firstName,
@@ -54,19 +53,12 @@ export const Card: FC<CardProps> = ({
             {
               icon: <Calendar size={iconSize} />,
               component: (
-                <div className={'space-x-1'}>
+                <div className={'flex items-baseline space-x-1'}>
                   <p className={'inline-block'}>{`Affiliated since `}</p>
-                  <p className={'inline-block font-semibold'}>
-                    {moment(affiliationPeriodStart).format('MMMM YYYY')}
-                  </p>
-                  {affiliationPeriodEnd && (
-                    <>
-                      <p className={'inline-block'}>{` till `}</p>
-                      <p className={'inline-block font-semibold'}>
-                        {moment(affiliationPeriodEnd).format('MMMM YYYY')}
-                      </p>
-                    </>
-                  )}
+                  <PeriodStartEnd
+                    start={affiliationPeriodStart}
+                    end={affiliationPeriodEnd}
+                  />
                 </div>
               ),
             },

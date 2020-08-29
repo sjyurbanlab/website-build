@@ -32,6 +32,10 @@ export const routes: Route[] = [
         path: '/urban-fluid-mechanics',
         title: 'Urban Fluid Mechanics',
       },
+      {
+        path: '/urban-health',
+        title: 'Urban Health',
+      },
     ],
   },
   {

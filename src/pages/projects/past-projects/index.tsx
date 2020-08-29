@@ -31,13 +31,7 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
       />
 
       <div className={'space-y-8'}>
-        <div>
-          <Title>Past Projects</Title>
-          <p className={'mt-2'}>
-            Healthy Cities Lab has successfully completed various projects. [I
-            need more text]
-          </p>
-        </div>
+        <Title>Past Projects</Title>
 
         <div className={'space-y-8'}>
           {pastProjects.map(({ name, node: { frontmatter } }, index) => (
@@ -67,7 +61,7 @@ export const query = graphql`
       }
     }
     # sort mdx files by project start ascending
-    allMdx(sort: { fields: frontmatter___projectStart, order: ASC }) {
+    allMdx(sort: { fields: frontmatter___projectStart, order: DESC }) {
       edges {
         node {
           frontmatter {

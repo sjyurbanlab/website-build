@@ -1,15 +1,11 @@
-import React, { FC, useContext, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import axios from 'axios';
 import moment from 'moment';
-
-import { LoadingContext } from '@utilities/LoadingContext';
 
 import { PageContainer } from '@components/layout';
 import { colorfulGreenBackgroundImage } from '@assets/images';
 
 export const Footer: FC = () => {
-  const { isLoading } = useContext(LoadingContext);
-
   const [lastUpdated, setLastUpdated] = useState<{
     authorName: string;
     date: Date;
@@ -26,8 +22,9 @@ export const Footer: FC = () => {
       const { name: authorName, date } = commitResponse.data.author;
       setLastUpdated({ authorName, date: new Date(date) });
     };
-    if (!isLoading) fetchLastCommit().then();
-  }, [isLoading]);
+    const timer = setTimeout(() => fetchLastCommit().then(), 200);
+    return () => clearTimeout(timer);
+  }, []);
 
   const contactEmail = `jsong90@hku.hk`;
 
@@ -40,45 +37,26 @@ export const Footer: FC = () => {
       />
       <div className={'relative'}>
         <PageContainer>
-          <div className={'lg:flex lg:justify-between'}>
-            {/* lab mission */}
-            <div>
-              <h4>Our Mission</h4>
-              <p>
-                Insert lab mission here Insert lab mission here Insert lab
-                mission here Insert lab mission here Insert lab mission here
-                Insert lab mission here Insert lab mission here Insert lab
-                mission here Insert lab mission here Insert lab mission here
-                Insert lab mission here
-              </p>
-            </div>
-
-            {/* contact us and site last updated */}
-            <div
-              className={
-                'mt-4 lg:mt-0 lg:ml-4 lg:text-right lg:flex-none space-y-2'
-              }
-            >
-              <div>
-                <h4>Contact us</h4>
-                <p>
-                  <Link href={`mailto:${contactEmail}`}>{contactEmail}</Link>
-                </p>
-                <p>
-                  <Link href={'https://goo.gl/maps/ZBQijMcThx2nE5r2A'}>
-                    The University of Hong Kong Haking Wong Building LG
-                  </Link>
-                </p>
-              </div>
-              {lastUpdated && (
-                <p className={'text-sm'}>{`This site was last updated by ${
-                  lastUpdated.authorName
-                } ${moment(lastUpdated.date).calendar()}.`}</p>
-              )}
-            </div>
+          {/* contact us and site last updated */}
+          <div className={'space-y-2'}>
+            <h4>Contact us</h4>
+            <p>
+              Email at{' '}
+              <Link href={`mailto:${contactEmail}`}>{contactEmail}</Link>
+            </p>
+            <p>
+              <Link href={'https://goo.gl/maps/ZBQijMcThx2nE5r2A'}>
+                The University of Hong Kong Haking Wong Building LG
+              </Link>
+            </p>
+            {lastUpdated && (
+              <p className={'text-sm'}>{`This site was last updated by ${
+                lastUpdated.authorName
+              }, ${moment(lastUpdated.date).calendar()}.`}</p>
+            )}
           </div>
 
-          <div className={'mt-4 md:mt-8 space-y-2 text-sm'}>
+          <div className={'mt-4 space-y-2 text-sm'}>
             <p>
               This website is powered by{' '}
               <Link href={'https://gatsbyjs.org'}>Gatsby</Link> and{' '}

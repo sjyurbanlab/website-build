@@ -7,17 +7,17 @@ export const Introduction: FC = () => {
     textBody1: {
       title: 'Our Lab',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh vitae tortor fermentum luctus at ac ex. Integer eget dapibus enim. Sed erat erat, feugiat sit amet ultrices ut, elementum sed tortor. Proin condimentum at nunc in mollis. Fusce porta sem et mi tempor, egestas aliquam quam scelerisque. Integer pharetra lectus sapien, vel congue urna vulputate eu. Nam rutrum est blandit est finibus, non luctus massa aliquam.',
+        'Welcome to the Healthy Cities Laboratory at HKU Department of Mechanical Engineering. Our group focuses on numerous research themes in urban area, including urban land-atmosphere interactions, urban hydro-climate, urban green infrastructure, building energy efficiency, urban fluid mechanics, and urban health. We are equipped with strong relevant research skills about model development, numerical simulation, and field experiment to investigate urban heat and moisture transport processes, city ventilation mechanisms, indoor-outdoor exchanges, human thermoregulation, climate change adaptation, etc.',
     },
     textBody2: {
       title: 'Our Mission',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh vitae tortor fermentum luctus at ac ex. Integer eget dapibus enim. Sed erat erat, feugiat sit amet ultrices ut, elementum sed tortor. Proin condimentum at nunc in mollis. Fusce porta sem et mi tempor, egestas aliquam quam scelerisque. Integer pharetra lectus sapien.',
+        'Rapid urbanisation and the associated landscape modification have led to numerous environmental challenges, such as urban heat stress, air pollution, limited green space, excessive energy consumption, high possibility of airborne disease transmission, etc. To tackle these challenges, we have been working on developing and evaluating smart adaptation strategies, such as city landscape reform, urban green infrastructure implementation, climate-resilient urban planning, and energy-efficient building design.',
     },
     textBody3: {
       title: 'Our Vision',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis nibh vitae tortor fermentum luctus at ac ex. Integer eget dapibus enim. Sed erat erat, feugiat sit amet ultrices ut, elementum sed tortor. Proin condimentum at nunc in mollis. Fusce porta sem et mi tempor, egestas aliquam quam scelerisque. Integer pharetra lectus sapien, vel congue urna vulputate eu. Nam rutrum est blandit est finibus, non luctus massa aliquam. Nam rutrum est blandit est finibus, non luctus massa aliquam.',
+        'We aim to foster sustainable urban planning and development towards future smart and healthy cities with more sustainable indoor and outdoor environment, better physical and mental health, more resilience to environmental changes such as global warming, climate-related disasters, and unforeseeable pandemics, etc.​',
     },
   };
 

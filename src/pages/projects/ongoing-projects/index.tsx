@@ -7,7 +7,7 @@ import { filterMdxFiles } from '@utilities/filterMdxFiles';
 import Layout from '@src/Layout';
 import { SEO } from '@components/layout';
 import { Title } from '@components/generic';
-import { Card } from '@components/projects';
+import { ProjectCard } from '@components/projects';
 
 interface OngoingProjectsProps {
   data: OngoingProjectsMdxQuery;
@@ -19,7 +19,9 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
 
   const ongoingProjects = filterMdxFiles(foundFiles, allMdx);
 
-  const { pathname } = useLocation();
+  // obtain pathname
+  let { pathname } = useLocation();
+  if (pathname[pathname.length - 1] === '/') pathname = pathname.slice(0, -1);
 
   return (
     <Layout>
@@ -40,7 +42,7 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
         <div className={'space-y-8'}>
           {ongoingProjects.map(({ name, node: { frontmatter } }, index) => (
             <div key={index}>
-              <Card {...frontmatter} pageLink={`${pathname}/${name}`} />
+              <ProjectCard {...frontmatter} pageLink={`${pathname}/${name}`} />
             </div>
           ))}
         </div>

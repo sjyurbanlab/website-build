@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import { ButtonBack, ButtonNext } from 'pure-react-carousel';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 
@@ -20,7 +20,10 @@ export const CarouselButtons: FC = () => {
           boxShadow: 'none',
         }}
       >
-        <ChevronLeft size={iconSize} />
+        <ButtonContainer
+          icon={<ChevronLeft size={iconSize} />}
+          iconSize={'40px'}
+        />
       </ButtonBack>
       <ButtonNext
         // @ts-ignore
@@ -31,8 +34,25 @@ export const CarouselButtons: FC = () => {
           boxShadow: 'none',
         }}
       >
-        <ChevronRight size={iconSize} />
+        <ButtonContainer
+          icon={<ChevronRight size={iconSize} />}
+          iconSize={'40px'}
+        />
       </ButtonNext>
     </div>
   );
 };
+
+const ButtonContainer: FC<{ icon: ReactNode; iconSize: string }> = ({
+  icon,
+  iconSize,
+}) => (
+  <div
+    className={
+      'flex items-center justify-center bg-white bg-opacity-75 rounded-full'
+    }
+    style={{ width: iconSize, height: iconSize }}
+  >
+    {icon}
+  </div>
+);

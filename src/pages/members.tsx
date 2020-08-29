@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '@src/Layout';
 import { SEO } from '@components/layout';
 import { Title } from '@components/generic';
-import { Card, FancyCard } from '@components/members';
+import { MemberCard, LabLeadCard } from '@components/members';
 import { labLeadData, membersData } from '@assets/data';
 
 export default function Members() {
@@ -17,13 +17,13 @@ export default function Members() {
         </div>
 
         <div>
-          <FancyCard labLead={labLeadData} />
+          <LabLeadCard labLead={labLeadData} />
         </div>
 
         <div className={'space-y-8'}>
           {membersData.map((member, index) => (
             <div key={index}>
-              <Card member={member} />
+              <MemberCard member={member} />
             </div>
           ))}
         </div>

@@ -4,7 +4,7 @@ import { desktopNavItems } from './navItems';
 
 export const DesktopNavBar: FC = () => {
   return (
-    <div className={'container mx-auto py-4 px-2 border-b border-gray-600'}>
+    <div className={'container mx-auto py-4 px-2 border-b border-gray-300'}>
       <div className={'w-full flex items-center'}>
         {desktopNavItems.map((navItem, index) => (
           <Fragment key={index}>

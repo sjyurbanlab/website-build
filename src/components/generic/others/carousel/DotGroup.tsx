@@ -27,7 +27,9 @@ export const DotGroup: FC<DotGroupProps> = ({ slides }) => {
       {slides?.map((groupedSet, index) => (
         <Dot key={index} slide={index}>
           <div
-            className={`w-2 h-2 mx-1 rounded-full ${getBackgroundColor(index)}`}
+            className={`w-3 h-3 mx-1 border border-white rounded-full ${getBackgroundColor(
+              index
+            )}`}
           />
         </Dot>
       ))}

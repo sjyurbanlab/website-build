@@ -48,7 +48,7 @@ export const routes: Route[] = [
     title: 'Members',
   },
   {
-    path: '/activities',
+    path: '/team-activities',
     title: 'Team Activities',
     isNotALink: true,
     childrenRoutes: [

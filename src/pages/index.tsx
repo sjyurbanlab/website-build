@@ -3,7 +3,7 @@ import React from 'react';
 import { Layout } from '@src/Layout';
 import { AppHeadline } from '@components/generic';
 import {
-  Carousel,
+  ImageCarousel,
   News,
   AdditionalLinks,
   Introduction,
@@ -21,7 +21,7 @@ export default function Index() {
         <div className={'space-y-6'}>
           <Introduction />
 
-          <Carousel />
+          <ImageCarousel />
 
           <div className={'grid grid-cols-1 md:grid-cols-2 gap-4'}>
             {/* news */}

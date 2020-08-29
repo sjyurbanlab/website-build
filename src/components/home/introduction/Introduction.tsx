@@ -25,19 +25,19 @@ export const Introduction: FC = () => {
     image1: {
       id: 1,
       src:
-        'https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/home/introduction/hong-kong-night.jpg',
+        'https://sjyurbanlab.github.io/website-assets/home/introduction/hong-kong-night.jpg',
       alt: 'cover 1',
     },
     image2: {
       id: 2,
       src:
-        'https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/home/introduction/green-building.jpg',
+        'https://sjyurbanlab.github.io/website-assets/home/introduction/greenery-with-buildings.jpg',
       alt: 'cover 2',
     },
     image3: {
       id: 3,
       src:
-        'https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/home/introduction/fluids.jpg',
+        'https://sjyurbanlab.github.io/website-assets/home/introduction/green-brochure.jpg',
       alt: 'cover 3',
     },
   };

@@ -1,6 +1,6 @@
 {
   "0": {
-    "avatar": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/dachuanshi/Dachuan+Shi.jpg",
+    "avatar": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/profile.jpg",
     "firstName": "Dachuan",
     "lastName": "Shi",
     "position": "PhD Student",
@@ -10,10 +10,10 @@
     ],
     "affiliationPeriodStart": "2020-06-30T16:00:00.000Z",
     "affiliationPeriodEnd": "2024-06-30T10:00:00.000Z",
-    "cv": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/dachuanshi/CV-Dachuan+Shi-0711.pdf"
+    "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
   },
   "1": {
-    "avatar": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/ruiqingdu/Du+Ruiqing+Profile+Picture.jpg",
+    "avatar": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/profile.jpg",
     "firstName": "Ruiqing",
     "lastName": "Du",
     "position": "PhD Student",
@@ -23,10 +23,10 @@
     ],
     "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
     "affiliationPeriodEnd": "2024-08-31T10:00:00.000Z",
-    "cv": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/ruiqingdu/Du+Ruiqing+CV+for+website.pdf"
+    "cv": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/cv.pdf"
   },
   "2": {
-    "avatar": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/xinjiehuang/Profile+Picture_Xinjie+Huang.jpg",
+    "avatar": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/profile.jpg",
     "firstName": "Xinjie",
     "lastName": "Huang",
     "position": "MPhil Student",
@@ -36,10 +36,10 @@
     ],
     "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
     "affiliationPeriodEnd": "2022-08-31T10:00:00.000Z",
-    "cv": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/xinjiehuang/CV+(updated)_Xinjie+Huang.pdf"
+    "cv": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/cv.pdf"
   },
   "3": {
-    "avatar": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/seanchok/profile.jpeg",
+    "avatar": "https://sjyurbanlab.github.io/website-assets/members/seanchok/profile.jpeg",
     "firstName": "Sean",
     "lastName": "Chok",
     "position": "Student Research Assistant",
@@ -50,6 +50,6 @@
     ],
     "affiliationPeriodStart": "2020-07-05T16:00:00.000Z",
     "affiliationPeriodEnd": "2020-08-31T15:59:59.999Z",
-    "cv": "https://sjyurbanlab-website.s3-ap-northeast-1.amazonaws.com/members/seanchok/cv.pdf"
+    "cv": "https://sjyurbanlab.github.io/website-assets/members/seanchok/cv.pdf"
   }
 }

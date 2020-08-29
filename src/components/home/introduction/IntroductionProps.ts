@@ -2,9 +2,9 @@ import { Image } from '@src/types/image';
 
 export type IntroductionProps = {
   textBodies: {
-    textBody1?: TextBody;
-    textBody2?: TextBody;
-    textBody3?: TextBody;
+    textBody1: TextBody;
+    textBody2: TextBody;
+    textBody3: TextBody;
   };
   images: {
     image1: Image;
@@ -14,6 +14,6 @@ export type IntroductionProps = {
 };
 
 export type TextBody = {
-  title?: string;
-  content?: string;
+  title: string;
+  content: string;
 };

@@ -25,7 +25,7 @@ export const Introduction: FC = () => {
     image1: {
       id: 1,
       src:
-        'https://sjyurbanlab.github.io/website-assets/home/introduction/hong-kong-night.jpg',
+        'https://sjyurbanlab.github.io/website-assets/home/introduction/hong-kong-day.jpg',
       alt: 'cover 1',
     },
     image2: {

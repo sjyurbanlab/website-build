@@ -13,7 +13,7 @@ export const Section: FC<SectionProps> = ({
   ...props
 }) => (
   <div
-    className={`${largerSpacing ? 'mt-12' : 'mt-8'} ${className}`}
+    className={`${largerSpacing ? 'mt-12' : 'mt-8'} space-y-2 ${className}`}
     {...props}
   >
     {children}

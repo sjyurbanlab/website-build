@@ -19,7 +19,8 @@ export const InnerImage: FC<InnerImageProps> = ({
 }) => {
   let className: string = 'absolute inset-0 h-full w-full object-cover';
   if (isIntrinsicDimensions) className = 'w-auto h-auto';
-  else if (isSensibleDimensions) className = 'w-120 h-90 object-cover';
+  else if (isSensibleDimensions)
+    className = 'w-auto max-w-full h-auto max-h-sm object-cover';
 
   const [imageSrc, setImageSrc] = useState<string>(src);
 

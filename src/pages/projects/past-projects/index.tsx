@@ -9,11 +9,11 @@ import { SEO } from '@components/layout';
 import { Title } from '@components/generic';
 import { ProjectCard } from '@components/projects';
 
-interface OngoingProjectsProps {
+interface PastProjectsProps {
   data: PastProjectsMdxQuery;
 }
 
-export default function OngoingProjects({ data }: OngoingProjectsProps) {
+export default function PastProjects({ data }: PastProjectsProps) {
   const foundFiles = data.allFile.edges;
   const allMdx = data.allMdx.edges;
 
@@ -26,7 +26,7 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
   return (
     <Layout>
       <SEO
-        title={'Ongoing Projects'}
+        title={'Past Projects'}
         description={'See our list of past projects here.'}
       />
 

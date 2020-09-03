@@ -26,10 +26,12 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
     link,
     eventPeriodStart,
     eventPeriodEnd,
+    logos,
     photos,
     publishableResults,
   },
 }) => {
+  console.log({ logos });
   const iconSize = '24px';
 
   const { isMobile } = useViewport();
@@ -57,6 +59,7 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
           <p className={'text-lg xl:text-xl font-semibold leading-tight'}>
             {title}
           </p>
+
           <div className={'m-4 space-y-4'}>
             <CardItemWithIcon
               icon={<Tag size={iconSize} />}
@@ -179,16 +182,33 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
             ) : null}
           </div>
 
-          <p className={'text-center'}>
-            <a
-              className={'block'}
-              href={link}
-              target={'_blank'}
-              rel={'noopener noreferrer'}
+          {logos ? (
+            <div
+              className={'ml-auto w-fit-content flex justify-between space-x-2'}
             >
-              Find Out More
-            </a>
-          </p>
+              {logos.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt={`logo ${index}`}
+                  className={'block h-12 w-auto flex-none'}
+                />
+              ))}
+            </div>
+          ) : null}
+
+          {link ? (
+            <p className={'text-center'}>
+              <a
+                className={'block'}
+                href={link}
+                target={'_blank'}
+                rel={'noopener noreferrer'}
+              >
+                Find Out More
+              </a>
+            </p>
+          ) : null}
         </div>
       </div>
     </SimpleCard>

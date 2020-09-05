@@ -4,7 +4,7 @@ interface InnerImageProps {
   src: string;
   alt: string;
   isIntrinsicDimensions?: boolean;
-  size?: 'extra small' | 'small' | 'medium' | 'large';
+  size?: 'extra small' | 'small' | 'medium' | 'large' | 'extra large';
   style?: CSSProperties;
   fallbackSrc?: string;
 }
@@ -32,6 +32,9 @@ export const InnerImage: FC<InnerImageProps> = ({
         break;
       case 'large':
         className = 'w-auto max-w-full h-auto max-h-lg object-cover';
+        break;
+      case 'extra large':
+        className = 'w-auto max-w-full h-auto max-h-2xl object-cover';
         break;
       default:
         break;

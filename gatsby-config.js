@@ -15,8 +15,16 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: require.resolve('./src/Layout.tsx'),
+          'ongoing-projects': require.resolve('./src/Layout.tsx'),
+          'past-projects': require.resolve('./src/Layout.tsx'),
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'other-members',
+        path: `${__dirname}/src/components/members/OtherMembers.mdx`,
       },
     },
     {

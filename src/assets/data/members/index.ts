@@ -1,2 +1,2 @@
 export { labLeadData } from './labLead.data';
-export { membersData } from './members.data';
+export { memberGroupsData } from './memberGroups.data';

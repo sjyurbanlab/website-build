@@ -11,7 +11,7 @@ import {
 import AnimateHeight from 'react-animate-height';
 
 import { LabLead } from '@src/types/labLead';
-import { Image, InnerImage } from '@components/generic';
+import { Image, InnerImage, SubTitle } from '@components/generic';
 import {
   avatarPlaceholder,
   colorfulGreenBackgroundImage,
@@ -109,85 +109,93 @@ export const LabLeadCard: FC<FancyCardProps> = ({
   ];
 
   return (
-    <div className={'text-white rounded-xl relative overflow-hidden p-4'}>
-      <InnerImage
-        src={colorfulGreenBackgroundImage}
-        alt={'colorful green background'}
-      />
+    <div>
+      <SubTitle>Lab Lead</SubTitle>
 
-      <div className={'relative'}>
-        <div className={'grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8'}>
-          <div className={'col-span-1 my-2'}>
-            <div
-              className={
-                'w-full mx-auto border-8 border-emerald-green rounded-full'
-              }
-              style={{ maxWidth: '200px' }}
-            >
-              <Image
-                src={avatar}
-                alt={firstName}
-                circular
-                fallbackSrc={avatarPlaceholder}
-              />
-            </div>
-          </div>
+      <div
+        className={'mt-4 text-white rounded-xl relative overflow-hidden p-4'}
+      >
+        <InnerImage
+          src={colorfulGreenBackgroundImage}
+          alt={'colorful green background'}
+        />
 
-          <div className={'col-span-1 md:col-span-2 xl:col-span-3 space-y-4'}>
-            <div
-              className={
-                'flex items-center md:items-baseline flex-col md:flex-row'
-              }
-            >
-              <p
-                className={'text-xl'}
-              >{`${salutation} ${firstName} ${lastName}`}</p>
-
-              <p className={'font-light text-sm md:ml-2'}>{position}</p>
-            </div>
-
-            <div className={'space-y-2'}>
-              {fields.map(({ icon, component }, index) => (
-                <div className={'flex items-center'} key={index}>
-                  <div className={'text-emerald-green mr-4 md:mr-6'}>
-                    {icon}
-                  </div>
-                  <div>{component}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className={'mx-4 my-6 space-y-4'}>
-          <AnimateHeight height={showMore ? 'auto' : 0} duration={200}>
-            <div className={'grid grid-cols-1 lg:grid-cols-2 gap-4'}>
-              {collapsibleFields.map(({ icon, title, list }, index) => (
-                <div className={'col-span-1 flex items-start'} key={index}>
-                  <div className={'text-emerald-green mr-4 md:mr-6'}>
-                    {icon}
-                  </div>
-                  <div>
-                    <p className={'text-lg font-bold'}>{title}</p>
-                    <ul className={'space-y-2'}>
-                      {list.map((element, index) => (
-                        <li key={index}>
-                          <p>{element}</p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </AnimateHeight>
-
+        <div className={'relative'}>
           <div
-            className={
-              'text-emerald-green-light font-bold w-full text-center cursor-pointer'
-            }
-            onClick={() => setShowMore(!showMore)}
-          >{`See ${showMore ? 'Less' : 'More'}`}</div>
+            className={'grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8'}
+          >
+            <div className={'col-span-1 my-2'}>
+              <div
+                className={
+                  'w-full mx-auto border-8 border-emerald-green rounded-full'
+                }
+                style={{ maxWidth: '200px' }}
+              >
+                <Image
+                  src={avatar}
+                  alt={firstName}
+                  circular
+                  fallbackSrc={avatarPlaceholder}
+                />
+              </div>
+            </div>
+
+            <div className={'col-span-1 md:col-span-2 xl:col-span-3 space-y-4'}>
+              <div
+                className={
+                  'flex items-center md:items-baseline flex-col md:flex-row'
+                }
+              >
+                <p
+                  className={'text-xl'}
+                >{`${salutation} ${firstName} ${lastName}`}</p>
+
+                <p className={'font-light text-sm md:ml-2'}>{position}</p>
+              </div>
+
+              <div className={'space-y-2'}>
+                {fields.map(({ icon, component }, index) => (
+                  <div className={'flex items-center'} key={index}>
+                    <div className={'text-emerald-green mr-4 md:mr-6'}>
+                      {icon}
+                    </div>
+                    <div>{component}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className={'mx-4 my-6 space-y-4'}>
+            <AnimateHeight height={showMore ? 'auto' : 0} duration={200}>
+              <div className={'grid grid-cols-1 lg:grid-cols-2 gap-4'}>
+                {collapsibleFields.map(({ icon, title, list }, index) => (
+                  <div className={'col-span-1 flex items-start'} key={index}>
+                    <div className={'text-emerald-green mr-4 md:mr-6'}>
+                      {icon}
+                    </div>
+                    <div>
+                      <p className={'text-lg font-bold'}>{title}</p>
+                      <ul className={'list-disc list-inside space-y-2'}>
+                        {list.map((element, index) => (
+                          <li key={index}>
+                            <p>{element}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AnimateHeight>
+
+            <div
+              className={
+                'text-emerald-green-light font-bold w-full text-center cursor-pointer'
+              }
+              onClick={() => setShowMore(!showMore)}
+            >{`See ${showMore ? 'Less' : 'More'}`}</div>
+          </div>
         </div>
       </div>
     </div>

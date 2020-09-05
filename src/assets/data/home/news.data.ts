@@ -3,7 +3,7 @@ import rawNews from './news.json';
 import { News } from '@src/types/news';
 
 export const news: News[] = Object.entries(rawNews)
-  .map(([key, value]) => ({
+  .map(([key, value]: [string, any]) => ({
     id: Number(key),
     image: value.image,
     title: value.title,

@@ -1,0 +1,59 @@
+{
+  "Key Research Members": {
+    "0": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/profile.jpg",
+      "firstName": "Dachuan",
+      "lastName": "Shi",
+      "position": "PhD Student",
+      "email": "shidc26@connect.hku.hk",
+      "introduction": [
+        "Dachuan became a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong since July 2020. His current main research interests include micro-environment in facial masks and thermal comfort. Before this role, he received his Master's degree in Building and Civil Engineering in 2019, from Chongqing University, focusing on building energy efficiency and urban thermal environment, including monitoring, modelling, and simulation. From 2017 to 2018, he devised and carried out the exposure trails of 12 roofing products in Chengdu and Xiamen, studied the impact of natural aging on energy savings of high reflective flat roofs. In 2016, he joined the US/China joint research project ‘Experiment study of energy use comparison of the cool roof & green roof in office building’ facilitated by Chongqing University and Lawrence Berkeley National Laboratory. Additionally, he obtained his bachelor's degree in Building Environment and Facility Engineering in 2016, from Jiangsu University of Science and technology. In the past 7 years, he has published 8 SCI articles, got 5 patents, and numerous prizes, including 3 national-level prizes and the third prize of Jiangsu province, and he gained the China National Postgraduate Scholarship twice."
+      ],
+      "affiliationPeriodStart": "2020-06-30T16:00:00.000Z",
+      "affiliationPeriodEnd": "2024-06-30T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
+    },
+    "1": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/profile.jpg",
+      "firstName": "Ruiqing",
+      "lastName": "Du",
+      "position": "PhD Student",
+      "email": "drq697095@sina.com",
+      "introduction": [
+        "Ruiqing is currently a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) (starting from Sept. 2020). He received his Bachelor’s and Master’s degrees in Building Environment and Energy Engineering from Chongqing University (CQU), China in Jun 2017 (with Best Bachler’s thesis award) and May 2020 (with outstanding Master’s thesis defense) respectively. In addition, he has exchange experiences as a visiting master in the School of Design and Environment (SDE) at National University of Singapore (NUS) from Dec 2018 to Jun 2019. He has been awarded 11 scholarships, 4 national awards, 2 Provincial awards as well as more than 20 University awards, including National Scholarship, Tanglixin Scholarship and Excellent Graduate Student of Chongqing. Ruiqing has multidisciplinary research interests in urban heat island mitigation, microencapsulation PCM, microPCM-concrete, nanofluid, heat transfer enhancement, geothermal heat exchanger, building energy efficiency, etc."
+      ],
+      "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
+      "affiliationPeriodEnd": "2024-08-31T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/cv.pdf"
+    },
+    "2": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/profile.jpg",
+      "firstName": "Xinjie",
+      "lastName": "Huang",
+      "position": "MPhil Student",
+      "email": "mmmattwong@gmail.com",
+      "introduction": [
+        "Xinjie joined Healthy Cities Lab at HKU as an MPhil student in Fall 2020. He obtained his B.Eng. degree in Building Environment and Energy Engineering at Southeast University in China. He is interested in microclimate, air quality, ventilation, and thermal comfort on both indoor and urban scales. Before he joined Healthy Cities Lab, he has performed several research projects on air quality, especially on indoor-outdoor air exchanges. He has also won the national first prize as team leader in the National University Student Competition on Energy Conservation and Emission Reduction. His research will focus on mechanisms and applications of vegetation-air interactions in the built environment. Apart from academic interests, Xinjie is also keen on Cantonese music and feels passionate to work in Hong Kong, which is such a metropolitan city and a unique field laboratory to study urban climate and air quality."
+      ],
+      "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
+      "affiliationPeriodEnd": "2022-08-31T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/cv.pdf"
+    }
+  },
+  "Research Assistants": {
+    "0": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/seanchok/profile.jpeg",
+      "firstName": "Sean",
+      "lastName": "Chok",
+      "position": "Student Research Assistant",
+      "email": "seanchok@connect.hku.hk",
+      "introduction": [
+        "As an aspiring mechanical engineer, Sean loves learning new knowledge and skills from people who are really passionate about science and technology. The way he achieves this is by participating in numerous projects that each have a small and focused team. He genuinely believes that this is the best way to share what each person knows through active collaboration, without the need for pen and paper, but with meaningful discussions and common purposes. Some of the teams that he joined worked on various fields of engineering, such as robotics, and web technologies; all of which he has fortunately met people who taught and gave him valuable insights. These are also the people who motivate him to be better everyday than the day before.",
+        "At the Healthy Cities laboratory, Sean assists its members to the best extent of his capability, which includes building a website to better promote what the lab does, as well as helping conduct experiments to understand how a person’s thermal and respiratory comfort is affected by wearing a mask. Despite the short duration that he would be here, he hopes to make a positive contribution to the lab; through this work, he wishes to inspire his peers to take action, and try something different from any school curriculum."
+      ],
+      "affiliationPeriodStart": "2020-07-05T16:00:00.000Z",
+      "affiliationPeriodEnd": "2020-08-31T15:59:59.999Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/seanchok/cv.pdf"
+    }
+  }
+}

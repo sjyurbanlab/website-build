@@ -8,14 +8,15 @@
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/sustainable-environment/hku-logo.png",
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/sustainable-environment/secondary-logo.png"
-    ]
+    ],
+    "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/sustainable-environment/poster.pdf"
   },
   "2": {
     "title": "Simulation of indoor-outdoor exchanges of heat and pollutants for a naturally ventilated office building in London",
     "organiser": "American Meteorological Society (AMS) The 10th International Conference on Urban Climate/ 14th Symposium on the Urban Environment",
     "location": "New York, NY, USA",
     "labParticipants": ["Dr. Jiyun Song"],
-    "eventPeriodStart": "2018-08-01T10:00:00.000Z",
+    "eventPeriodStart": "2018-08-09T10:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png",
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/iauc-logo.png"
@@ -26,7 +27,7 @@
     "organiser": "The 8th International Conference on Sustainable Development in Building and Environment",
     "location": "Chongqing, China",
     "labParticipants": ["Dr. Jiyun Song"],
-    "eventPeriodStart": "2017-11-01T10:00:00.000Z",
+    "eventPeriodStart": "2017-11-06T10:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/impact-of-building-design/sudbe-logo.png"
     ]
@@ -36,7 +37,7 @@
     "organiser": "American Meteorological Society (AMS) The 32nd Conference on Agricultural and Forest Meteorology/ 22nd Symposium on Boundary Layers and Turbulence/ Third Conference on Biogeosciences",
     "location": "Salt Lake City, UT, USA",
     "labParticipants": ["Dr. Jiyun Song"],
-    "eventPeriodStart": "2016-06-01T10:00:00.000Z",
+    "eventPeriodStart": "2016-06-24T10:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/urban-land-atmospheric-coupling/ams-logo.png"
     ]
@@ -46,7 +47,7 @@
     "organiser": "American Geophysical Union (AGU) Fall Meeting",
     "location": "San Francisco, CA, USA",
     "labParticipants": ["Dr. Jiyun Song"],
-    "eventPeriodStart": "2015-12-01T10:00:00.000Z",
+    "eventPeriodStart": "2015-12-16T10:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/boundary-layer-dynamics-of-co2/agu-logo.png"
     ]

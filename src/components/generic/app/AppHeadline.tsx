@@ -8,7 +8,7 @@ export const AppHeadline: FC = () => (
     </div>
     <div>
       <p className={'text-xl md:text-3xl'}>Healthy Cities Laboratory</p>
-      <p>A young and rising team led by Prof. Jiyun Song</p>
+      <p>A young and rising team led by Prof./Dr. Jiyun Song</p>
     </div>
   </div>
 );

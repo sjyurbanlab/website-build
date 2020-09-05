@@ -190,14 +190,14 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
                   key={index}
                   src={logo}
                   alt={`logo ${index}`}
-                  className={'block h-12 w-auto flex-none'}
+                  className={'block h-12 md:h-16 w-auto flex-none'}
                 />
               ))}
             </div>
           ) : null}
 
           {link ? (
-            <p className={'text-center'}>
+            <p className={'mt-4 text-center'}>
               <a
                 className={'block'}
                 href={link}

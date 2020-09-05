@@ -2,8 +2,7 @@ import React, { FC } from 'react';
 import { IntroductionProps } from './IntroductionProps';
 
 export const DesktopIntroduction: FC<IntroductionProps> = ({
-  textBodies,
-  images,
+  introduction: { textBodies, images },
 }) => {
   const { textBody1, textBody2, textBody3 } = textBodies;
 

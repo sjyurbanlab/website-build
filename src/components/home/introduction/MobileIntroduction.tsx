@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
 
-import { IntroductionProps, TextBody } from './IntroductionProps';
+import { IntroductionProps } from './IntroductionProps';
+import { TextBody } from '@src/types/textBody';
 import { Image } from '@src/types/image';
 
 export const MobileIntroduction: FC<IntroductionProps> = ({
-  textBodies,
-  images,
+  introduction: { textBodies, images },
 }) => {
   const { textBody1, textBody2, textBody3 } = textBodies;
 

@@ -56,7 +56,7 @@ export default function Members({ data }: MembersProps) {
 
 export const pageQuery = graphql`
   query OtherMembersMdx {
-    mdx(fileAbsolutePath: { regex: "/OtherMembers$/" }) {
+    mdx(fileAbsolutePath: { regex: "/OtherMembers/" }) {
       body
     }
   }

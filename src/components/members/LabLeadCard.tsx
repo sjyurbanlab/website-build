@@ -178,9 +178,7 @@ export const LabLeadCard: FC<FancyCardProps> = ({
                       <p className={'text-lg font-bold'}>{title}</p>
                       <ul className={'list-disc list-inside space-y-2'}>
                         {list.map((element, index) => (
-                          <li key={index}>
-                            <p>{element}</p>
-                          </li>
+                          <li key={index}>{element}</li>
                         ))}
                       </ul>
                     </div>

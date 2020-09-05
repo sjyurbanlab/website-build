@@ -31,7 +31,6 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
     publishableResults,
   },
 }) => {
-  console.log({ logos });
   const iconSize = '24px';
 
   const { isMobile } = useViewport();

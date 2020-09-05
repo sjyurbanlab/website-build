@@ -15,6 +15,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
+          'research-themes': require.resolve('./src/Layout.tsx'),
           'ongoing-projects': require.resolve('./src/Layout.tsx'),
           'past-projects': require.resolve('./src/Layout.tsx'),
         },
@@ -23,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'other-members',
-        path: `${__dirname}/src/components/members/OtherMembers.mdx`,
+        name: 'research-themes',
+        path: `${__dirname}/src/pages/research-themes/`,
       },
     },
     {
@@ -39,6 +40,13 @@ module.exports = {
       options: {
         name: 'past-projects',
         path: `${__dirname}/src/pages/projects/past-projects/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'other-members',
+        path: `${__dirname}/src/components/members/OtherMembers.mdx`,
       },
     },
     {

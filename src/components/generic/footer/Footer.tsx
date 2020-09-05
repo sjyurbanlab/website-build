@@ -64,9 +64,7 @@ export const Footer: FC = () => {
               <Link href={'https://tailwindcss.com'}>TailwindCSS</Link>, hosted
               using <Link href={'https://pages.github.com/'}>Github Pages</Link>
               , and managed at{' '}
-              <Link
-                href={'https://github.com/sjyurbanlab/sjyurbanlab.github.io'}
-              >
+              <Link href={'https://github.com/sjyurbanlab/website-build'}>
                 Github
               </Link>
               .

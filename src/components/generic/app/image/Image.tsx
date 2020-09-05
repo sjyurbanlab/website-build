@@ -5,7 +5,7 @@ interface ImageProps {
   src: string;
   alt: string;
   isIntrinsicDimensions?: boolean;
-  isSensibleDimensions?: boolean;
+  size?: 'extra small' | 'small' | 'medium' | 'large';
   center?: boolean;
   rounded?: boolean;
   circular?: boolean;
@@ -19,7 +19,7 @@ export const Image: FC<ImageProps> = ({
   src,
   alt,
   isIntrinsicDimensions,
-  isSensibleDimensions,
+  size,
   center,
   rounded,
   circular,
@@ -32,19 +32,12 @@ export const Image: FC<ImageProps> = ({
     <div className={center ? 'flex justify-center' : ''}>
       <div
         className={`${
-          isIntrinsicDimensions || isSensibleDimensions
-            ? ''
-            : 'relative w-full h-full'
+          isIntrinsicDimensions || size ? '' : 'relative w-full h-full'
         } ${rounded ? 'rounded-lg' : ''} overflow-hidden ${className}`}
         style={{
-          paddingTop:
-            !isIntrinsicDimensions && !isSensibleDimensions && circular
-              ? '100%'
-              : '',
+          paddingTop: !isIntrinsicDimensions && !size && circular ? '100%' : '',
           borderRadius:
-            !isIntrinsicDimensions && !isSensibleDimensions && circular
-              ? '50%'
-              : '',
+            !isIntrinsicDimensions && !size && circular ? '50%' : '',
           ...style,
         }}
       >
@@ -52,7 +45,7 @@ export const Image: FC<ImageProps> = ({
           src={src}
           alt={alt}
           isIntrinsicDimensions={isIntrinsicDimensions}
-          isSensibleDimensions={isSensibleDimensions}
+          size={size}
           style={innerImageStyle}
           fallbackSrc={fallbackSrc}
         />

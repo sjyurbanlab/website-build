@@ -4,7 +4,7 @@ import { ConferenceAndMeeting } from '@src/types/conferenceAndMeeting';
 export const conferencesAndMeetingsData: ConferenceAndMeeting[] = Object.entries(
   rawConferencesAndMeetings
 )
-  .map(([key, conferenceAndMeeting]) => ({
+  .map(([key, conferenceAndMeeting]: [string, any]) => ({
     id: Number(key),
     title: conferenceAndMeeting.title,
     organiser: conferenceAndMeeting.organiser,
@@ -17,9 +17,10 @@ export const conferencesAndMeetingsData: ConferenceAndMeeting[] = Object.entries
     eventPeriodEnd: conferenceAndMeeting.eventPeriodEnd
       ? new Date(conferenceAndMeeting.eventPeriodEnd)
       : undefined,
+    logos: conferenceAndMeeting.logos,
     photos: conferenceAndMeeting.photos,
     publishableResults: conferenceAndMeeting.publishableResults?.map(
-      (publishableResult) => ({
+      (publishableResult: any) => ({
         ...publishableResult,
         date: new Date(publishableResult.date),
       })

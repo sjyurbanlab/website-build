@@ -7,6 +7,7 @@ export type ConferenceAndMeeting = {
   link?: string;
   eventPeriodStart?: Date;
   eventPeriodEnd?: Date;
+  logos?: string[];
   photos?: string[];
   publishableResults?: {
     name: string;

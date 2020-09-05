@@ -11,12 +11,22 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-graphql-codegen`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: require.resolve('./src/Layout.tsx'),
+          'research-themes': require.resolve('./src/Layout.tsx'),
+          'ongoing-projects': require.resolve('./src/Layout.tsx'),
+          'past-projects': require.resolve('./src/Layout.tsx'),
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'research-themes',
+        path: `${__dirname}/src/pages/research-themes/`,
       },
     },
     {
@@ -31,6 +41,13 @@ module.exports = {
       options: {
         name: 'past-projects',
         path: `${__dirname}/src/pages/projects/past-projects/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'other-members',
+        path: `${__dirname}/src/components/members/OtherMembers.mdx`,
       },
     },
     {

@@ -33,7 +33,9 @@ module.exports = {
       },
       maxHeight: {
         none: 'none',
-        xs: '20rem',
+        xxxs: '5rem',
+        xxs: '12rem',
+        xs: '18rem',
         sm: '24rem',
         md: '28rem',
         lg: '32rem',

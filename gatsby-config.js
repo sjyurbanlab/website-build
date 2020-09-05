@@ -19,6 +19,7 @@ module.exports = {
           'research-themes': require.resolve('./src/Layout.tsx'),
           'ongoing-projects': require.resolve('./src/Layout.tsx'),
           'past-projects': require.resolve('./src/Layout.tsx'),
+          fun: require.resolve('./src/Layout.tsx'),
         },
       },
     },
@@ -48,6 +49,13 @@ module.exports = {
       options: {
         name: 'other-members',
         path: `${__dirname}/src/components/members/OtherMembers.mdx`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'fun',
+        path: `${__dirname}/src/pages/team-activities/fun.mdx`,
       },
     },
     {

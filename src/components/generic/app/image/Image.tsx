@@ -5,7 +5,7 @@ interface ImageProps {
   src: string;
   alt: string;
   isIntrinsicDimensions?: boolean;
-  size?: 'extra small' | 'small' | 'medium' | 'large';
+  size?: 'extra small' | 'small' | 'medium' | 'large' | 'extra large';
   center?: boolean;
   rounded?: boolean;
   circular?: boolean;

@@ -5,7 +5,7 @@ interface VideoPlayerProps extends ReactPlayerProps {}
 
 export const VideoPlayer: FC<VideoPlayerProps> = (props) => (
   <div>
-    <div className={'w-full md:w-2/3 lg:w-3/5 mx-auto'}>
+    <div className={'w-full max-w-xl mx-auto'}>
       <div className={'relative'} style={{ paddingTop: '56.25%' }}>
         <ReactPlayer
           controls={true}

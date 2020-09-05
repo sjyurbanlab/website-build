@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-graphql-codegen`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

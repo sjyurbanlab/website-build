@@ -1,4 +1,4 @@
-import rawMemberGroups from './memberGroups.json';
+import rawMemberGroups from './member-groups.json';
 import { MemberGroup } from '@src/types/memberGroup';
 
 export const memberGroupsData: MemberGroup[] = Object.entries(

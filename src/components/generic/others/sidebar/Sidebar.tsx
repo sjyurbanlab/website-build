@@ -32,13 +32,14 @@ export const Sidebar: FC<SidebarProps> = ({
     <>
       {/* mobile */}
       <div className={'block lg:hidden'}>
-        <div
-          className={
-            'sticky flex items-baseline justify-between overflow-x-auto bg-white space-x-4'
-          }
-        >
-          {buttons}
-        </div>
+        {/* todo: figure where to place this without using a hidden side bar */}
+        {/*<div*/}
+        {/*  className={*/}
+        {/*    'sticky flex items-baseline justify-between overflow-x-auto bg-white space-x-4'*/}
+        {/*  }*/}
+        {/*>*/}
+        {/*  {buttons}*/}
+        {/*</div>*/}
         <div>{children}</div>
       </div>
 

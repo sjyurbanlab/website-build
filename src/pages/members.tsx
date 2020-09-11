@@ -20,7 +20,7 @@ export default function Members({ data }: MembersProps) {
   const linkTitles: string[] = ['Lab Lead'].concat(
     memberGroupsData.map(({ groupName }) => groupName)
   );
-  if (otherMembers) linkTitles.push('Other Members');
+  if (otherMembers) linkTitles.push('Other Affiliated Members');
 
   // sidebar link refs
   const linksRef = useRef<any>(linkTitles.map(() => createRef()));

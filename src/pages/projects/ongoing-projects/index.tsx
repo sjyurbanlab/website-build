@@ -7,7 +7,7 @@ import { filterMdxFiles } from '@utilities/filterMdxFiles';
 import Layout from '@src/Layout';
 import { SEO } from '@components/layout';
 import { Title } from '@components/generic';
-import { ProjectCard } from '@components/projects';
+import { Projects } from '@components/projects';
 
 interface OngoingProjectsProps {
   data: OngoingProjectsMdxQuery;
@@ -33,13 +33,7 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
       <div className={'space-y-8'}>
         <Title>Ongoing Projects</Title>
 
-        <div className={'space-y-8'}>
-          {ongoingProjects.map(({ name, node: { frontmatter } }, index) => (
-            <div key={index}>
-              <ProjectCard {...frontmatter} pageLink={`${pathname}/${name}`} />
-            </div>
-          ))}
-        </div>
+        <Projects projects={ongoingProjects} pathname={pathname} />
       </div>
     </Layout>
   );

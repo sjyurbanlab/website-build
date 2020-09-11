@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <Layout
       image={
-        'https://sjyurbanlab.github.io/website-assets/home/greenery-with-buildings.jpg'
+        'https://sjyurbanlab.github.io/website-assets/home/introduction/greenery-with-buildings.jpg'
       }
     >
       <div className={'space-y-4 md:space-y-8'}>

@@ -27,6 +27,10 @@ export const Layout: FC = ({ children }) => {
   const navBarBoxRef = useRef(null);
   const navBarBox = useComponentBox(navBarBoxRef);
 
+  useEffect(() => {
+    setViewport({ ...viewport, navBarHeight: navBarBox.height });
+  }, [navBarBox.height]);
+
   return (
     <ViewportContext.Provider value={viewport}>
       <MDXProvider components={mdxComponents}>
@@ -46,7 +50,9 @@ export const Layout: FC = ({ children }) => {
             className={'flex flex-col min-h-screen'}
             style={{ marginTop: navBarBox?.height || 75 }}
           >
-            <div className={'text-jet-black text-sm md:text-base'}>
+            <div
+              className={'text-jet-black text-sm md:text-base md:py-4 lg:py-8'}
+            >
               <PageContainer>{children}</PageContainer>
             </div>
 

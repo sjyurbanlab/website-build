@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Pagination } from '@components/generic/others';
+import { Pagination } from '@components/generic';
 import { ProjectCard } from './ProjectCard';
 
 interface ProjectsProps {

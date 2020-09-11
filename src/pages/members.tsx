@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { createRef, useRef } from 'react';
 import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { OtherMembersMdxQuery } from '../../graphql-types';
 
 import Layout from '@src/Layout';
 import { SEO } from '@components/layout';
-import { SubTitle } from '@components/generic';
+import { SubTitle, Sidebar, Title } from '@components/generic';
 import { MemberCard, LabLeadCard } from '@components/members';
 
 import { labLeadData, memberGroupsData } from '@assets/data';
@@ -17,38 +17,52 @@ interface MembersProps {
 export default function Members({ data }: MembersProps) {
   const otherMembers = data.mdx?.body;
 
+  const linkTitles: string[] = ['Lab Lead'].concat(
+    memberGroupsData.map(({ groupName }) => groupName)
+  );
+  if (otherMembers) linkTitles.push('Other Members');
+
+  // sidebar link refs
+  const linksRef = useRef<any>(linkTitles.map(() => createRef()));
+
   return (
     <Layout>
       <SEO title={'Members'} />
 
-      <div className={'space-y-8 md:space-y-20'}>
-        {/* lab lead (json) */}
-        <div>
-          <LabLeadCard labLead={labLeadData} />
-        </div>
+      <div className={'space-y-6'}>
+        <Title>Members</Title>
 
-        {/* members (json) */}
-        <div className={'space-y-12'}>
-          {memberGroupsData.map(({ groupName, members }, index) => (
-            <div key={index}>
-              <SubTitle>{groupName}</SubTitle>
-              <div className={'mt-4 space-y-8'}>
-                {members.map((member, index) => (
-                  <div key={index}>
-                    <MemberCard member={member} />
-                  </div>
-                ))}
-              </div>
+        <Sidebar linksRef={linksRef} linkTitles={linkTitles}>
+          <div className={'space-y-8'}>
+            {/* lab lead (json) */}
+            <div ref={linksRef.current[0]}>
+              <LabLeadCard labLead={labLeadData} />
             </div>
-          ))}
-        </div>
 
-        {/* members (mdx) */}
-        {otherMembers && (
-          <div>
-            <MDXRenderer>{otherMembers}</MDXRenderer>
+            {/* members (json) */}
+            <div className={'space-y-12'}>
+              {memberGroupsData.map(({ groupName, members }, index) => (
+                <div ref={linksRef.current[index + 1]} key={index}>
+                  <SubTitle>{groupName}</SubTitle>
+                  <div className={'mt-4 space-y-8'}>
+                    {members.map((member, index) => (
+                      <div key={index}>
+                        <MemberCard member={member} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* members (mdx) */}
+            {otherMembers && (
+              <div ref={linksRef.current[linkTitles.length - 1]}>
+                <MDXRenderer>{otherMembers}</MDXRenderer>
+              </div>
+            )}
           </div>
-        )}
+        </Sidebar>
       </div>
     </Layout>
   );

@@ -8,15 +8,6 @@ module.exports = {
       serif: ['Noto Serif', ...defaultTheme.fontFamily.serif],
       mono: ['Inconsolata', ...defaultTheme.fontFamily.mono],
     },
-    container: {
-      center: true,
-      padding: {
-        default: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-      },
-    },
     extend: {
       borderRadius: {
         xl: '1rem',

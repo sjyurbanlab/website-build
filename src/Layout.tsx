@@ -11,11 +11,11 @@ import { useComponentBox } from '@hooks/useComponentBox';
 import { MDXProvider } from '@mdx-js/react';
 import { mdxComponents } from '@components/mdx';
 
-import { SEO, SEOProps } from '@components/layout';
+import { SEO } from '@components/layout';
 import { Footer, NavBar } from '@components/generic';
 import { PageContainer } from '@components/layout';
 
-export const Layout: FC<SEOProps> = ({ children, ...seoProps }) => {
+export const Layout: FC = ({ children }) => {
   const [viewport, setViewport] = useState<Viewport>(defaultViewport);
 
   useEffect(() => {
@@ -27,10 +27,14 @@ export const Layout: FC<SEOProps> = ({ children, ...seoProps }) => {
   const navBarBoxRef = useRef(null);
   const navBarBox = useComponentBox(navBarBoxRef);
 
+  useEffect(() => {
+    setViewport({ ...viewport, navBarHeight: navBarBox.height });
+  }, [navBarBox.height]);
+
   return (
     <ViewportContext.Provider value={viewport}>
       <MDXProvider components={mdxComponents}>
-        <SEO {...seoProps} />
+        <SEO />
 
         <div className={'text-sm sm:text-base bg-white text-jet-black'}>
           <div
@@ -46,7 +50,9 @@ export const Layout: FC<SEOProps> = ({ children, ...seoProps }) => {
             className={'flex flex-col min-h-screen'}
             style={{ marginTop: navBarBox?.height || 75 }}
           >
-            <div className={'text-jet-black text-sm md:text-base'}>
+            <div
+              className={'text-jet-black text-sm md:text-base md:py-4 lg:py-8'}
+            >
               <PageContainer>{children}</PageContainer>
             </div>
 

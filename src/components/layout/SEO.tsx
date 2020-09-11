@@ -20,7 +20,7 @@ const query = graphql`
   }
 `;
 
-export interface SEOProps {
+interface SEOProps {
   title?: string;
   description?: string;
   keywords?: string;

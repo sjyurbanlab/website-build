@@ -5,6 +5,7 @@ export type Viewport = {
   height: number;
   isMobile: boolean;
   isMobileLandscape: boolean;
+  navBarHeight: number;
 };
 
 export const defaultViewport: Viewport = {
@@ -12,6 +13,7 @@ export const defaultViewport: Viewport = {
   height: 0,
   isMobile: false,
   isMobileLandscape: false,
+  navBarHeight: 0,
 };
 
 const smBreakpoint = 640;
@@ -21,6 +23,7 @@ export const generateViewport = (window: Window): Viewport => ({
   height: window.innerHeight,
   isMobile: window.innerWidth < smBreakpoint,
   isMobileLandscape: window.innerHeight < smBreakpoint,
+  navBarHeight: 0,
 });
 
 export const ViewportContext = createContext<Viewport>(defaultViewport);

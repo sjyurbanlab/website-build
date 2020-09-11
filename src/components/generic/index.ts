@@ -9,7 +9,7 @@ export {
   CardItemWithIcon,
 } from './app';
 
-export { PeriodStartEnd, Carousel } from './others';
+export { PeriodStartEnd, Carousel, Pagination, Sidebar } from './others';
 
 export { NavBar } from './nav';
 export { Footer } from './footer';

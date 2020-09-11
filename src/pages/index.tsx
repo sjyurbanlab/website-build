@@ -9,14 +9,16 @@ import {
   Introduction,
 } from '@components/home';
 import { house } from '@assets/images';
+import { SEO } from '@components/layout';
 
 export default function Index() {
   return (
-    <Layout
-      image={
-        'https://sjyurbanlab.github.io/website-assets/home/introduction/greenery-with-buildings.jpg'
-      }
-    >
+    <Layout>
+      <SEO
+        image={
+          'https://sjyurbanlab.github.io/website-assets/home/introduction/greenery-with-buildings.jpg'
+        }
+      />
       <div className={'space-y-4 md:space-y-8'}>
         <div>
           <AppHeadline />
@@ -27,7 +29,7 @@ export default function Index() {
 
           <ImageCarousel />
 
-          <div className={'grid grid-cols-1 md:grid-cols-2 gap-4'}>
+          <div className={'grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8'}>
             {/* news */}
             <News />
 

@@ -14,7 +14,7 @@ const query = graphql`
         defaultKeywords: keywords
         siteUrl: url
         defaultImage: image
-        defaultIcon: icon
+        icon
       }
     }
   }
@@ -43,7 +43,7 @@ export const SEO: FC<SEOProps> = ({
     defaultKeywords,
     siteUrl,
     defaultImage,
-    defaultIcon,
+    icon,
   } = site?.siteMetadata || {};
 
   const { pathname } = useLocation();
@@ -53,12 +53,9 @@ export const SEO: FC<SEOProps> = ({
     titleTemplate: title && titleTemplate ? titleTemplate : '%s',
     description: description || defaultDescription || '',
     keywords: keywords || defaultKeywords || '',
-    image: `${siteUrl}${image || defaultImage}`,
+    image: image || `${siteUrl}${defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
-
-  const staticImage = image || defaultImage || '';
-  const icon = defaultIcon;
 
   return (
     <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
@@ -70,9 +67,9 @@ export const SEO: FC<SEOProps> = ({
 
       <link
         rel={'icon'}
-        type={'image/jpg'}
+        type={'image/ico'}
         sizes={'64x64'}
-        href={staticImage}
+        href={defaultImage || icon || ''}
       />
 
       {icon && <link rel={'shortcut icon'} type={'image/x-icon'} href={icon} />}

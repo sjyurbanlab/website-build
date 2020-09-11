@@ -11,11 +11,11 @@ import { useComponentBox } from '@hooks/useComponentBox';
 import { MDXProvider } from '@mdx-js/react';
 import { mdxComponents } from '@components/mdx';
 
-import { SEO } from '@components/layout';
+import { SEO, SEOProps } from '@components/layout';
 import { Footer, NavBar } from '@components/generic';
 import { PageContainer } from '@components/layout';
 
-export const Layout: FC = ({ children }) => {
+export const Layout: FC<SEOProps> = ({ children, ...seoProps }) => {
   const [viewport, setViewport] = useState<Viewport>(defaultViewport);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export const Layout: FC = ({ children }) => {
   return (
     <ViewportContext.Provider value={viewport}>
       <MDXProvider components={mdxComponents}>
-        <SEO />
+        <SEO {...seoProps} />
 
         <div className={'text-sm sm:text-base bg-white text-jet-black'}>
           <div

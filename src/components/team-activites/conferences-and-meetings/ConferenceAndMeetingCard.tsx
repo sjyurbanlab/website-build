@@ -183,7 +183,7 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
 
           {logos ? (
             <div
-              className={'ml-auto w-fit-content flex justify-between space-x-2'}
+              className={'ml-auto w-fit-content flex justify-between space-x-4'}
             >
               {logos.map((logo, index) => (
                 <img

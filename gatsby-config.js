@@ -6,6 +6,7 @@ module.exports = {
     keywords: 'hku, engineering, healthy cities, research',
     url: 'https://sjyurbanlab.github.io',
     image: '/images/house.jpg',
+    icon: '/images/house.ico'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

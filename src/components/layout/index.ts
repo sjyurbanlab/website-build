@@ -1,2 +1,2 @@
 export { PageContainer } from './PageContainer';
-export * from './SEO';
+export { SEO } from './SEO';

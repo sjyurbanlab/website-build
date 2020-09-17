@@ -54,18 +54,6 @@
       "affiliationPeriodStart": "2020-07-05T16:00:00.000Z",
       "affiliationPeriodEnd": "2020-08-31T15:59:59.999Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/seanchok/cv.pdf"
-    },
-    "2": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/kennethhung/profile.png",
-      "firstName": "Kenneth",
-      "lastName": "Hung",
-      "position": "Student Research Assistant",
-      "email": "keni18@connect.hku.hk",
-      "introduction": [
-        "Kenneth is a passionate mechanical engineering student focusing on environmental and fluid dynamic sectors. He loves facing challenges and willing to deal with uncertainties and unpredictable outcomes. Kenneth is a devoted team player who holds the belief that effective communications and trust are the keys for a team to pursue goals successfully. He was the member of 2019-2020 HKU AIAA Design/Build/Fly team members who was responsible for the aerodynamics analysis. Apart from the engineering disciple, Kenneth also served the student community. He acted as the committee member of several student societies for bringing more to his schoolmates.",
-        "At the Healthy Cities laboratory, Kenneth mainly focus on mask related experiments, including effect on thermal and respiratory comfort by wearing mask and the leakage test on various masks."
-      ],
-      "affiliationPeriodStart": "2020-09-01T10:00:00.000Z"
     }
   }
 }

@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+
 import { Carousel, Image } from '@src/components/generic';
 
 interface PhotoCarouselProps {

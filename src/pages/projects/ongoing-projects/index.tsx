@@ -33,12 +33,7 @@ export default function OngoingProjects({ data }: OngoingProjectsProps) {
       <div className={'space-y-8'}>
         <Title>Ongoing Projects</Title>
 
-        {/* todo: remove project count per page to set it to default*/}
-        <Projects
-          projects={ongoingProjects}
-          pathname={pathname}
-          projectCountPerPage={2}
-        />
+        <Projects projects={ongoingProjects} pathname={pathname} />
       </div>
     </Layout>
   );

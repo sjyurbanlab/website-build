@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { SimpleCard } from '@components/generic';
+import { SimpleCard, Link as GenericLink } from '@components/generic';
 
 import { additionalLinks } from '@assets/data';
 import { Link } from '@src/types/additionalLinks';
@@ -70,14 +70,9 @@ const Links: FC<{ links: Link[] }> = ({ links }) => (
     {links.map(({ link, title }, index) => (
       <div key={index}>
         <p>{title}</p>
-        <a
-          className={'block'}
-          href={link}
-          target={'_blank'}
-          rel={'noopener noreferrer'}
-        >
+        <GenericLink className={'block'} href={link}>
           {link}
-        </a>
+        </GenericLink>
       </div>
     ))}
   </div>

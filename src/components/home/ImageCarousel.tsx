@@ -5,8 +5,6 @@ import { Image } from '@components/generic';
 import { Carousel } from '@components/generic';
 
 export const ImageCarousel: FC = () => {
-  const totalSlides = carouselImages.length;
-
   const carouselItems = carouselImages.map(({ src, alt, title }, index) => (
     <div
       key={index}

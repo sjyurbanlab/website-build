@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
 import { Calendar, Coffee, FileText, Mail } from 'react-feather';
 
-import { Image, PeriodStartEnd } from '@components/generic';
+import { Image, Link, PeriodStartEnd } from '@components/generic';
 
 import { Member } from '@src/types/member';
+
 import { avatarPlaceholder } from '@assets/images';
 
 interface CardProps {
@@ -30,14 +31,12 @@ export const MemberCard: FC<CardProps> = ({
     {
       icon: <Mail size={iconSize} />,
       component: (
-        <a
+        <Link
           href={`mailto:${email}`}
-          target={'_blank'}
-          rel={'noopener noreferrer'}
           className={'text-cobalt-blue font-bold hover:text-cobalt-blue-light'}
         >
           {email}
-        </a>
+        </Link>
       ),
     },
     {

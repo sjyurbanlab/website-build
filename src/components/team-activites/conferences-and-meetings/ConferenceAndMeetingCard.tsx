@@ -8,6 +8,7 @@ import { ConferenceAndMeeting } from '@src/types/conferenceAndMeeting';
 
 import {
   CardItemWithIcon,
+  Link,
   PeriodStartEnd,
   SimpleCard,
 } from '@components/generic';
@@ -198,14 +199,9 @@ export const ConferenceAndMeetingCard: FC<ConferenceAndMeetingCardProps> = ({
 
           {link ? (
             <p className={'mt-4 text-center'}>
-              <a
-                className={'block'}
-                href={link}
-                target={'_blank'}
-                rel={'noopener noreferrer'}
-              >
+              <Link className={'block'} href={link}>
                 Find Out More
-              </a>
+              </Link>
             </p>
           ) : null}
         </div>

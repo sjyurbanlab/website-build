@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 import { carouselImages } from '@assets/data';
-import { Image } from '@components/generic';
+import { InnerImage } from '@components/generic';
 import { Carousel } from '@components/generic';
 
 export const ImageCarousel: FC = () => {
@@ -24,7 +24,7 @@ export const ImageCarousel: FC = () => {
       >
         <p>{title}</p>
       </div>
-      <Image
+      <InnerImage
         src={src}
         alt={alt}
         fallbackSrc={`https://via.placeholder.com/1000?text=Lab+Image+${

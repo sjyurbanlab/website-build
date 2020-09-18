@@ -5,7 +5,6 @@ import {
   Slide,
   Slider,
 } from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import { CarouselButtons } from '@components/generic/others/carousel/CarouselButtons';
 import { DotGroup } from '@components/generic/others/carousel/DotGroup';

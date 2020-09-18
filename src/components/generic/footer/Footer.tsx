@@ -3,6 +3,8 @@ import axios from 'axios';
 import moment from 'moment';
 
 import { PageContainer } from '@components/layout';
+import { Link as GenericLink } from '../app';
+
 import { colorfulGreenBackgroundImage } from '@assets/images';
 
 export const Footer: FC = () => {
@@ -78,12 +80,10 @@ export const Footer: FC = () => {
 };
 
 const Link: FC<{ href: string }> = ({ href, children }) => (
-  <a
+  <GenericLink
     href={href}
-    target={'_blank'}
-    rel={'noopenner noreferrer'}
     className={'text-gray-100 underline hover:text-gray-300'}
   >
     {children}
-  </a>
+  </GenericLink>
 );

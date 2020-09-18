@@ -1,7 +1,19 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  purge: {
+    enabled: true,
+    content: [
+      './public/**/*.html',
+      './src/**/*.ts',
+      './src/**/*.tsx',
+      './src/**/*.mdx',
+    ],
+  },
   theme: {
     fontFamily: {
       sans: ['Nunito', ...defaultTheme.fontFamily.sans],

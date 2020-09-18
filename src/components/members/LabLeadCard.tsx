@@ -10,8 +10,10 @@ import {
 } from 'react-feather';
 import AnimateHeight from 'react-animate-height';
 
+import { Image, InnerImage, Link, SubTitle } from '@components/generic';
+
 import { LabLead } from '@src/types/labLead';
-import { Image, InnerImage, SubTitle } from '@components/generic';
+
 import {
   avatarPlaceholder,
   colorfulGreenBackgroundImage,
@@ -43,14 +45,12 @@ export const LabLeadCard: FC<FancyCardProps> = ({
     {
       icon: <Mail size={iconSize} />,
       component: (
-        <a
+        <Link
           href={`mailto:${email}`}
-          target={'_blank'}
-          rel={'noopener noreferrer'}
           className={'text-white font-bold hover:text-white'}
         >
           {email}
-        </a>
+        </Link>
       ),
     },
     {

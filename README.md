@@ -29,6 +29,10 @@ To begin working,
 
 **Note that the process of importing, updating, and deleting is necessary to ensure that the sandbox is always kept up to date with the Github repository. If this is not performed, it is very possible that the sandbox may be out-of-sync with Github, and thus updates may not reflect correctly when commited.**
 
+### Alternatives to CodeSandBox
+
+If there are a lot of annoying bugs on CodeSandBox, you may consider editing files directly on Github. Make sure to commit your code changes to a new branch, and continue to work on that branch until you are ready to make a pull request. Making a pull request to merge the working branch to the main `master` branch tests the code changes you have made. Once those tests pass, you may confirm the merge. 
+
 <hr />
 
 ## Setup Local Development

@@ -22,7 +22,9 @@ To begin working,
 3. Import and fork project from Github by pasting this repository's Github link `https://github.com/sjyurbanlab/website-build.git` into CodeSandBox's Github url prompt.
 4. You should be lead to a new window, where CodeSandBox starts setting up a sandbox. Wait for 1-2mins until you see the website spun up on the right-most pane. If this does not happen, try going to the `Server Control Panel` in the left navigation menu, look for port `8000` and click it.
 5. Make code changes, however you like it!
-6. Link the sandbox to Github. Commit your code changes to the `master` branch if you are confident your changes would work as intended. One way to tell if you have made good changes is to see if the demo website in the right-most pane is still working, and reflecting your changes.
+6. Link the sandbox to Github. 
+  - Commit your code changes to the `master` branch if you are confident your changes would work as intended. One way to tell if you have made good changes is to see if the demo website in the right-most pane is still working, and reflecting your changes.
+  - Commit your code changes to another branch. This is the **recommended** method to bring changes back to Github, as there would be code tests in the correspondng pull request.
 7. Go back to the CodeSandBox dashboard, look for your sandbox, and delete it.
 
 **Note that the process of importing, updating, and deleting is necessary to ensure that the sandbox is always kept up to date with the Github repository. If this is not performed, it is very possible that the sandbox may be out-of-sync with Github, and thus updates may not reflect correctly when commited.**

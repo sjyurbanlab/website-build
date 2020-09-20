@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'other-members',
-        path: `${__dirname}/src/components/members/OtherMembers.mdx`,
+        name: 'generic-components',
+        path: `${__dirname}/src/components/`,
       },
     },
     {

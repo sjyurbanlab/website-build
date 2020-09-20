@@ -4,7 +4,7 @@ import Layout from '@src/Layout';
 import { SEO } from '@components/layout';
 import { Title } from '@components/generic';
 
-import { conferencesAndMeetingsData } from '@assets/data/team-activities';
+import { conferencesAndMeetingsData } from '@assets/data';
 import { ConferenceAndMeetingCard } from '@components/team-activites';
 
 export default function ConferencesAndMeetings() {

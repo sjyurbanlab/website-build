@@ -142,15 +142,13 @@ export const LabLeadCard: FC<FancyCardProps> = ({
 
             <div className={'col-span-1 md:col-span-2 xl:col-span-3 space-y-4'}>
               <div
-                className={
-                  'flex items-center md:items-baseline flex-col md:flex-row'
-                }
+                className={'text-center md:flex md:items-baseline md:space-x-2'}
               >
-                <p
-                  className={'text-xl'}
-                >{`${salutation} ${firstName} ${lastName}`}</p>
+                <p className={'text-xl'}>{`${
+                  salutation ? `${salutation} ` : ``
+                }${firstName} ${lastName}`}</p>
 
-                <p className={'font-light text-sm md:ml-2'}>{position}</p>
+                <p className={'font-light text-sm'}>{position}</p>
               </div>
 
               <div className={'space-y-2'}>

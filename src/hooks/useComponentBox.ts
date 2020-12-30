@@ -23,6 +23,7 @@ export const useComponentBox = (ref: any) => {
       resizeObserver.observe(ref.current);
 
       return () => {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         resizeObserver.disconnect(ref.current);
         resizeObserver = null;
       };
@@ -33,7 +34,7 @@ export const useComponentBox = (ref: any) => {
         window.removeEventListener('componentResize', handleResize);
       };
     }
-  }, [ref.current]);
+  }, [handleResize, ref]);
 
   return componentBox;
 };

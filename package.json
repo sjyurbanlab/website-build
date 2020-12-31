@@ -39,11 +39,11 @@
   "scripts": {
     "build:tailwind": "postcss src/tailwind.css -o src/tailwind.generated.css",
     "watch:tailwind": "postcss -w src/tailwind.css -o src/tailwind.generated.css",
-    "dev:gatsby:local": "gatsby develop",
+    "dev:gatsby": "gatsby develop",
     "dev:gatsby:repl": "gatsby develop -H 0.0.0.0",
     "prebuild": "npm run build:tailwind",
     "build": "gatsby build",
-    "dev:local": "npm run watch:tailwind & npm run dev:gatsby:local",
+    "dev": "npm run watch:tailwind & npm run dev:gatsby",
     "dev:repl": "npm run watch:tailwind & npm run dev:gatsby:repl",
     "lint": "eslint --fix src/**/*.{ts,tsx}"
   },

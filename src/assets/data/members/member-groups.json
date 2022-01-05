@@ -1,6 +1,19 @@
 {
   "Key Research Members": {
     "1": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/profile.jpg",
+      "firstName": "Dachuan",
+      "lastName": "Shi",
+      "position": "PhD Student",
+      "email": "shidc26@connect.hku.hk",
+      "introduction": [
+        "Dachuan became a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong since July 2020. His current main research interests include micro-environment in facial masks and thermal comfort. Before this role, he received his Master's degree in Building and Civil Engineering in 2019, from Chongqing University, focusing on building energy efficiency and urban thermal environment, including monitoring, modelling, and simulation. From 2017 to 2018, he devised and carried out the exposure trails of 12 roofing products in Chengdu and Xiamen, studied the impact of natural aging on energy savings of high reflective flat roofs. In 2016, he joined the US/China joint research project ‘Experiment study of energy use comparison of the cool roof & green roof in office building’ facilitated by Chongqing University and Lawrence Berkeley National Laboratory. Additionally, he obtained his bachelor's degree in Building Environment and Facility Engineering in 2016, from Jiangsu University of Science and technology. In the past 7 years, he has published 8 SCI articles, got 5 patents, and numerous prizes, including 3 national-level prizes and the third prize of Jiangsu province, and he gained the China National Postgraduate Scholarship twice."
+      ],
+      "affiliationPeriodStart": "2020-06-30T16:00:00.000Z",
+      "affiliationPeriodEnd": "2024-06-30T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
+    },
+    "2": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/profile.jpg",
       "firstName": "Ruiqing",
       "lastName": "Du",
@@ -13,7 +26,7 @@
       "affiliationPeriodEnd": "2024-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/ruiqingdu/cv.pdf"
     },
-    "2": {
+    "3": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/profile.jpg",
       "firstName": "Xinjie",
       "lastName": "Huang",

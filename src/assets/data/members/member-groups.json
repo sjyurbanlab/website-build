@@ -1,19 +1,6 @@
 {
   "Key Research Members": {
     "1": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/profile.jpg",
-      "firstName": "Qilong",
-      "lastName": "Zhong",
-      "position": "PhD Student",
-      "email": "u3008374@connect.hku.hk",
-      "introduction": [
-        "Qilong became a Healthy Cities Lab member as a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) since Sept. 2021. He obtained his B.S. in Mechanics and Aerospace Engineering (MAE) at Southern University of Science and Technology (SUSTech), China. Before he joined the Healthy Cities Lab, he has taken part in projects related on Deep Learning, PIV, CFD. He has been awarded Scholarship of SUSTech for three times. His current research interest focus on the thermal comfort in micro-environment (such as mask dead-space, urban blue space etc.) by the method of experiments and simulation."
-      ],
-      "affiliationPeriodStart": "2021-08-31T16:00:00.000Z",
-      "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
-    },
-    "2": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/profile.jpg",
       "firstName": "Xinjie",
       "lastName": "Huang",
@@ -25,6 +12,19 @@
       "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
       "affiliationPeriodEnd": "2022-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/cv.pdf"
+    },
+    "2": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/profile.jpg",
+      "firstName": "Qilong",
+      "lastName": "Zhong",
+      "position": "PhD Student",
+      "email": "u3008374@connect.hku.hk",
+      "introduction": [
+        "Qilong became a Healthy Cities Lab member as a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) since Sept. 2021. He obtained his B.S. in Mechanics and Aerospace Engineering (MAE) at Southern University of Science and Technology (SUSTech), China. Before he joined the Healthy Cities Lab, he has taken part in projects related on Deep Learning, PIV, CFD. He has been awarded Scholarship of SUSTech for three times. His current research interest focus on the thermal comfort in micro-environment (such as mask dead-space, urban blue space etc.) by the method of experiments and simulation."
+      ],
+      "affiliationPeriodStart": "2021-08-31T16:00:00.000Z",
+      "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
     }
   }
 }

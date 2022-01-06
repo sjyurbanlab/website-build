@@ -1,7 +1,7 @@
 {
   "name": "website-build",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
     "@mdx-js/mdx": "^1.6.7",

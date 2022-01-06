@@ -12,7 +12,7 @@ export const DesktopIntroduction: FC<IntroductionProps> = ({
     <div className={'relative'} style={{ height: `${280 / 4}rem` }}>
       <div
         className={
-          'w-1/2 absolute z-20 p-4 lg:p-6 bg-white border-8 border-emerald-green'
+          'w-1/2 absolute z-20 p-4 lg:p-6 bg-white border-8 border-emerald-green rounded'
         }
         style={{ top: '2rem', left: '1rem' }}
       >
@@ -23,19 +23,19 @@ export const DesktopIntroduction: FC<IntroductionProps> = ({
       <img
         src={image1.src}
         alt={image1.alt}
-        className={'h-90 w-3/5 object-cover absolute top-0 right-0'}
+        className={'h-90 w-3/5 object-cover absolute top-0 right-0 rounded'}
       />
 
       <img
         src={image2.src}
         alt={image2.alt}
-        className={'h-100 w-2/3 object-cover absolute left-0 z-10'}
+        className={'h-100 w-2/3 object-cover absolute left-0 z-10 rounded'}
         style={{ top: '20rem' }}
       />
 
       <div
         className={
-          'w-2/5 absolute z-20 p-4 lg:p-6 bg-white border-8 border-cobalt-blue'
+          'w-2/5 absolute z-20 p-4 lg:p-6 bg-white border-8 border-cobalt-blue rounded'
         }
         style={{ top: '23.5rem', right: '4rem' }}
       >
@@ -45,7 +45,7 @@ export const DesktopIntroduction: FC<IntroductionProps> = ({
 
       <div
         className={
-          'w-1/2 absolute z-20 p-4 lg:p-6 bg-white border-8 border-mustard-yellow'
+          'w-1/2 absolute z-20 p-4 lg:p-6 bg-white border-8 border-mustard-yellow rounded'
         }
         style={{ top: '46.5rem', left: '1.5rem' }}
       >
@@ -56,7 +56,7 @@ export const DesktopIntroduction: FC<IntroductionProps> = ({
       <img
         src={image3.src}
         alt={image3.alt}
-        className={'h-90 w-1/2 object-cover absolute'}
+        className={'h-90 w-1/2 object-cover absolute rounded'}
         style={{ top: '42rem', right: '2rem' }}
       />
     </div>

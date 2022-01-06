@@ -47,7 +47,7 @@ export const LabLeadCard: FC<FancyCardProps> = ({
       component: (
         <Link
           href={`mailto:${email}`}
-          className={'text-white font-bold hover:text-white'}
+          className={'text-white font-semibold hover:text-white'}
         >
           {email}
         </Link>
@@ -113,7 +113,7 @@ export const LabLeadCard: FC<FancyCardProps> = ({
       <SubTitle>Lab Lead</SubTitle>
 
       <div
-        className={'mt-4 text-white rounded-xl relative overflow-hidden p-4'}
+        className={'mt-4 text-white rounded-lg shadow-md relative overflow-hidden p-4'}
       >
         <InnerImage
           src={colorfulGreenBackgroundImage}
@@ -173,7 +173,7 @@ export const LabLeadCard: FC<FancyCardProps> = ({
                       {icon}
                     </div>
                     <div>
-                      <p className={'text-lg font-bold'}>{title}</p>
+                      <p className={'text-lg font-medium'}>{title}</p>
                       <ul className={'list-disc list-inside space-y-2'}>
                         {list.map((element, index) => (
                           <li key={index}>{element}</li>
@@ -187,10 +187,10 @@ export const LabLeadCard: FC<FancyCardProps> = ({
 
             <div
               className={
-                'text-emerald-green-light font-bold w-full text-center cursor-pointer'
+                'text-emerald-green-light text-sm w-full text-center cursor-pointer'
               }
               onClick={() => setShowMore(!showMore)}
-            >{`See ${showMore ? 'Less' : 'More'}`}</div>
+            >{`see ${showMore ? 'less' : 'more'}`}</div>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ export default function Index() {
           'https://sjyurbanlab.github.io/website-assets/home/introduction/greenery-with-buildings.jpg'
         }
       />
-      <div className={'space-y-4 md:space-y-8'}>
+      <div className={'space-y-6 md:space-y-12'}>
         <div>
           <AppHeadline />
         </div>

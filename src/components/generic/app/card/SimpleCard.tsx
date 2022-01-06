@@ -6,7 +6,7 @@ interface SimpleCardProps {
 
 export const SimpleCard: FC<SimpleCardProps> = ({ children }) => (
   <div
-    className={`border border-gray-500 rounded-lg shadow-lg bg-white overflow-hidden`}
+    className={`border border-gray-500 rounded-md shadow-md bg-white overflow-hidden`}
   >
     {children}
   </div>

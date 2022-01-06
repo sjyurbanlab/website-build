@@ -18,7 +18,7 @@ h3 {
 }
 
 h4 {
-  @apply text-xl font-extrabold;
+  @apply text-xl font-bold;
 }
 
 h5 {
@@ -37,7 +37,11 @@ a:hover {
 
 /*class extraction*/
 .button {
-  @apply px-4 py-2 rounded text-sm font-bold uppercase;
+  @apply px-4 py-2 rounded text-sm font-semibold uppercase;
+}
+
+.button-sm {
+  @apply px-2 py-1;
 }
 
 .button-emerald-green {

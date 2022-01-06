@@ -19,7 +19,7 @@ export const DesktopNavItem: FC<NavItemProps> = ({
       onMouseLeave={() => setIsOpen(false)}
     >
       <div
-        className={`border-b-2 border-transparent hover:border-emerald-green py1 text-base md:text-sm lg:text-lg font-bold ${
+        className={`border-b-2 border-transparent py-1 hover:border-emerald-green text-base md:text-sm lg:text-lg font-semibold ${
           isNotALink ? 'cursor-default' : 'cursor-pointer'
         }`}
         onClick={async () => {
@@ -31,7 +31,7 @@ export const DesktopNavItem: FC<NavItemProps> = ({
       {items && (
         <div
           className={
-            'absolute w-full bg-gray-200 overflow-hidden rounded-b text-xxs lg:text-xs xl:text-sm leading-tight'
+            'absolute w-full bg-gray-100 overflow-hidden rounded-b shadow-md text-xxs lg:text-xs xl:text-sm leading-tight'
           }
           // style={{ minWidth: 250 }}
         >

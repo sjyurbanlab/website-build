@@ -13,7 +13,7 @@ export const Title: FC<TitleProps> = ({ children, center, style }) => (
         'w-fit-content border-b-2 border-transparent transition-colors duration-500 ease-in-out hover:border-emerald-green'
       }
     >
-      <p className={'text-2xl md:text-3xl'} style={style}>
+      <p className={'font-medium text-2xl md:text-3xl'} style={style}>
         {children}
       </p>
     </div>

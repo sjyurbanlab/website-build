@@ -33,7 +33,7 @@ export const MemberCard: FC<CardProps> = ({
       component: (
         <Link
           href={`mailto:${email}`}
-          className={'text-cobalt-blue font-bold hover:text-cobalt-blue-light'}
+          className={'text-cobalt-blue font-semibold hover:text-cobalt-blue-light'}
         >
           {email}
         </Link>
@@ -70,13 +70,13 @@ export const MemberCard: FC<CardProps> = ({
             {
               icon: <FileText size={iconSize} />,
               component: (
-                <button className={'button button-emerald-green p-0'}>
+                <button className={'button button-sm button-emerald-green p-0'}>
                   <a
                     href={cv}
                     target={'_blank'}
                     rel={'noopener noreferrer'}
                     className={
-                      'inline-block px-10 py-3 no-underline text-white hover:no-underline hover:text-white focus:border-none'
+                      'inline-block px-4 py-1 no-underline text-white hover:no-underline hover:text-white focus:border-none'
                     }
                   >
                     Get CV
@@ -112,7 +112,7 @@ export const MemberCard: FC<CardProps> = ({
             salutation ? `${salutation} ` : ``
           }${firstName} ${lastName}`}</p>
 
-          <p className={'font-light text-sm'}>{position}</p>
+          <p className={'text-gray-500 text-sm'}>{position}</p>
         </div>
 
         <div className={'space-y-2'}>

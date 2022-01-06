@@ -24,7 +24,7 @@ const Item: FC<{ textBody: TextBody; image: Image; color: string }> = ({
   textBody,
   color,
 }) => (
-  <div className={`w-full bg-white border-8 border-${color}`}>
+  <div className={`w-full bg-white border-8 border-${color} rounded`}>
     <div className={'p-4'}>
       <h2>{textBody.title}</h2>
       <p>{textBody.content}</p>

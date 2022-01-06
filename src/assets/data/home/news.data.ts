@@ -11,5 +11,4 @@ export const news: News[] = Object.entries(rawNews)
     author: value.author,
     date: value.date,
     link: value.link,
-  }))
-  .sort((a, b) => (moment(a.date).isSameOrAfter(moment(b.date)) ? -1 : 1));
+  }));

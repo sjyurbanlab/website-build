@@ -23,5 +23,4 @@ export const memberGroupsData: MemberGroup[] = Object.entries(
         : undefined,
       cv: member.cv,
     }))
-    .sort((a, b) => a.id - b.id),
 }));

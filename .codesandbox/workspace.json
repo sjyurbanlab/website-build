@@ -8,8 +8,7 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 8000,
-            "url": "https://7xfnx-8000.sse.codesandbox.io"
+            "port": 8000
           },
           "closeable": true
         }

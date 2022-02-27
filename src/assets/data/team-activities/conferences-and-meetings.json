@@ -1,13 +1,14 @@
 {
   "1": {
-    "title": "The synergistic effect of urban heat and moisture islands in a compact high-rise city: mechanisms and mitigation strategies",
+    "title": "The synergistic effect of urban heat and moisture islands in a compact high-rise city: mechanisms and mitigation strategies (second-place award for outstanding poster presentation)",
     "organiser": " American Meteorology Society (AMS)'s 13th Conference on Environment and Health on 102nd Annual Meeting",
     "location": "Online",
     "labParticipants": ["Xinjie Huang, Dr. Jiyun Song"],
     "eventPeriodStart": "2022-01-23T00:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
-    ]
+    ],
+    "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/AMS/UHIUMIposter.pdf"
   },
   "2": {
     "title": "Urban climate–human coupling system: model development and case study",
@@ -17,7 +18,8 @@
     "eventPeriodStart": "2022-01-23T00:00:00.000Z",
     "logos": [
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
-    ]
+    ],
+    "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/AMS/UCMHEATSposter.pdf"
   },
   "3": {
     "title": "Sustainable environmental adaptation strategies towards smart and healthy cities (Invited talk)",

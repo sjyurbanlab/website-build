@@ -19,10 +19,17 @@ export const routes: Route[] = [
         path: '/urban-land-atmosphere-interaction',
         title: 'Urban Land-Atmosphere Interaction',
       },
-      { path: '/urban-hydro-climate', title: 'Urban Hydro-Climate' },
+      { 
+        path: '/urban-hydro-climate', 
+        title: 'Urban Hydro-Climate',
+      },
       {
         path: '/urban-green-infrastructure',
         title: 'Urban Green Infrastructure',
+      },
+      {
+        path: '/urban-blue-infrastructure',
+        title: 'Urban Blue Infrastructure',
       },
       {
         path: '/building-energy-efficiency',

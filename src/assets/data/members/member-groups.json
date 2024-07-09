@@ -7,7 +7,7 @@
       "position": "PhD Student",
       "email": "shidc26@connect.hku.hk",
       "introduction": [
-        "Dachuan became a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong since July 2020. His current main research interests include micro-environment in facial masks and thermal comfort. Before this role, he received his Master's degree in Building and Civil Engineering in 2019, from Chongqing University, focusing on building energy efficiency and urban thermal environment, including monitoring, modelling, and simulation. From 2017 to 2018, he devised and carried out the exposure trails of 12 roofing products in Chengdu and Xiamen, studied the impact of natural aging on energy savings of high reflective flat roofs. In 2016, he joined the US/China joint research project ‘Experiment study of energy use comparison of the cool roof & green roof in office building’ facilitated by Chongqing University and Lawrence Berkeley National Laboratory. Additionally, he obtained his bachelor's degree in Building Environment and Facility Engineering in 2016, from Jiangsu University of Science and technology. In the past 7 years, he has published 8 SCI articles, got 5 patents, and numerous prizes, including 3 national-level prizes and the third prize of Jiangsu province, and he gained the China National Postgraduate Scholarship twice."
+        "Dachuan Shi became a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong since July 2020. His research interests include (1) urban blue and green space optimization, (2) human-environment adaptive thermal stress modelling, and (3) urban building energy simulation, etc. Before this role, he received his Master's degree in Building and Civil Engineering in 2019, from Chongqing University, focusing on the effect of cool roof and green roof on the building energy efficiency and urban thermal environment, including monitoring, modelling, and simulation. Additionally, he obtained his bachelor's degree in Building Environment and Facility Engineering in 2016, from Jiangsu University of Science and technology. In the past years, he has published 26 SCI articles, got 4 patents, and 3 national-level prizes, and he gained the China National Postgraduate Scholarship twice."
       ],
       "affiliationPeriodStart": "2020-06-30T16:00:00.000Z",
       "affiliationPeriodEnd": "2025-06-30T10:00:00.000Z",
@@ -33,11 +33,37 @@
       "position": "PhD Student",
       "email": "u3008374@connect.hku.hk",
       "introduction": [
-        "Qilong became a Healthy Cities Lab member as a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) since Sept. 2021. He obtained his B.S. in Mechanics and Aerospace Engineering (MAE) at Southern University of Science and Technology (SUSTech), China. Before he joined the Healthy Cities Lab, he has taken part in projects related on Deep Learning, PIV, CFD. He has been awarded Scholarship of SUSTech for three times. His current research interest focus on the thermal comfort in micro-environment (such as mask dead-space, urban blue space etc.) by the method of experiments and simulation."
+        "Qilong became a member of Healthy Cities Lab as a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) since Sept. 2021. He obtained his B.S. in Mechanics and Aerospace Engineering (MAE) at Southern University of Science and Technology (SUSTech), China. His key research interest is in urban fluid mechanics via both experiments and CFD simulations. His past research efforts are mainly on the investigation of multi-scale microclimate on human thermal comfort and health in both indoor and outdoor environments, including (1) COVID-19 pandemics and human health: Protective facemask-induced facial thermal stress and breathing burden during exercise in gyms, and (2) Urban blue space and human health: City cooling via urban lake breeze circulation and optimized lakefront urban design."
       ],
       "affiliationPeriodStart": "2021-08-31T16:00:00.000Z",
       "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
+    },
+    "4": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/profile.jpg",
+      "firstName": "Deng",
+      "lastName": "Zhang",
+      "position": "PhD Student",
+      "email": "zhangd@whu.edu.cn",
+      "introduction": [
+        "Deng Zhang became a Ph.D. student in Healthy Cities Lab at the School of Water Resources and Hydropower Engineering, Wuhan University since September 2024. His current research interests include fine-resolution modelling of urban microclimate and carbon emission by integrating machine learning and physical urban climate models. Prior to this role, he obtained his bachelor's degree in Hydrology and Water Resources Engineering at Northwest Agriculture and Forestry University (GPA ranking: 2/57). During his undergraduate years, he has been awarded seven scholarships, including the China National Scholarship (once) and National Motivational Scholarship (twice)."
+      ],
+      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2027-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/cv.pdf"
+    },
+    "5": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
+      "firstName": "Qingfeng",
+      "lastName": "Zhang",
+      "position": "PhD Student",
+      "email": "stephen_chow_zqf@163.com",
+      "introduction": [
+        "Qingfeng became a Healthy Cities Lab member as a Ph.D. student in the School of Water Resources and Hydropower Engineering at Wuhan University since Sept. 2024. His current research interests focus on urban sprawl patterns, urban livability assessment and urban carbon monitoring. He obtained his bachelor's degree (Overall assessment ranking: 1/41) in Hydrology and Water Resources Engineering at Northwest A&F University (NWAFU), China. And his bachelor's thesis was selected as one of the top 100 papers of the university. Prior to joining the Healthy Cities Lab, he worked on projects related to eco-hydrology, extreme droughts, big data platforms, visual aids and IoT builds."
+      ],
+      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
     }
   }
 }

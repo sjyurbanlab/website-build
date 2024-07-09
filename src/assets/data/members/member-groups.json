@@ -39,5 +39,31 @@
       "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
     }
+    "4": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/profile.jpg",
+      "firstName": "Deng",
+      "lastName": "Zhang",
+      "position": "PhD Student",
+      "email": "zhangd@whu.edu.cn",
+      "introduction": [
+        "Deng Zhang became a Ph.D. student in Healthy Cities Lab at the School of Water Resources and Hydropower Engineering, Wuhan University since September 2024. His current research interests include fine-resolution modelling of urban microclimate and carbon emission by integrating machine learning and physical urban climate models. Prior to this role, he obtained his bachelor's degree in Hydrology and Water Resources Engineering at Northwest Agriculture and Forestry University (GPA ranking: 2/57). During his undergraduate years, he has been awarded seven scholarships, including the China National Scholarship (once) and National Motivational Scholarship (twice)."
+      ],
+      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2027-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/cv.pdf"
+    }
+    "5": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
+      "firstName": "Qingfeng",
+      "lastName": "Zhang",
+      "position": "PhD Student",
+      "email": "stephen_chow_zqf@163.com",
+      "introduction": [
+        "Qingfeng became a Healthy Cities Lab member as a Ph.D. student in the School of Water Resources and Hydropower Engineering at Wuhan University since Sept. 2024. His current research interests focus on urban sprawl patterns, urban livability assessment and urban carbon monitoring. He obtained his bachelor's degree (Overall assessment ranking: 1/41) in Hydrology and Water Resources Engineering at Northwest A&F University (NWAFU), China. And his bachelor's thesis was selected as one of the top 100 papers of the university. Prior to joining the Healthy Cities Lab, he worked on projects related to eco-hydrology, extreme droughts, big data platforms, visual aids and IoT builds."
+      ],
+      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
+    }
   }
 }

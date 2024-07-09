@@ -25,7 +25,7 @@ jobs:
           npm run build
 
       - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@4.1.9
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.DEPLOY_TOKEN }} # Github personal access token
           repository-name: sjyurbanlab/sjyurbanlab.github.io # The repository the action should deploy to.

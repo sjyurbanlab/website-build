@@ -25,6 +25,7 @@ export const MobileNavBar: FC = () => {
         </div>
         <p className={'px-2 font-bold'} onClick={() => navigate('/')}>
           Healthy Cities Lab at WHU & HKU
+        </p>
       </div>
 
       <div

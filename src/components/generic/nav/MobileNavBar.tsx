@@ -24,8 +24,7 @@ export const MobileNavBar: FC = () => {
           {!show ? <AlignJustify size={'30px'} /> : <X size={'30px'} />}
         </div>
         <p className={'px-2 font-bold'} onClick={() => navigate('/')}>
-          Healthy Cities Lab at HKU
-        </p>
+          Healthy Cities Lab at WHU & HKU
       </div>
 
       <div

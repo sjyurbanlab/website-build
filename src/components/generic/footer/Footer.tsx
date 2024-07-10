@@ -48,7 +48,7 @@ export const Footer: FC = () => {
             </p>
             <p>
               <Link href={'https://www.google.com/maps/place/%E6%B0%B4%E8%B5%84%E6%BA%90%E4%B8%8E%E6%B0%B4%E7%94%B5%E5%B7%A5%E7%A8%8B%E7%A7%91%E5%AD%A6%E5%9B%BD%E5%AE%B6%E9%87%8D%E7%82%B9%E5%AE%9E%E9%AA%8C%E5%AE%A4%E6%B0%B4%E7%94%B5%E7%AB%99%E8%BF%87%E6%B8%A1%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%8E%A7%E5%88%B6%E5%AE%9E%E9%AA%8C%E5%A4%A7%E5%8E%85/@30.5420492,114.362198,18z/data=!4m14!1m7!3m6!1s0x342ea5126cd5fd9f:0xe2b79fd385a4589e!2z5rC06LWE5rqQ5LiO5rC055S15bel56iL56eR5a2m5Zu95a626YeN54K55a6e6aqM5a6k5rC055S156uZ6L-H5rih6L-H56iL5LiO5o6n5Yi25a6e6aqM5aSn5Y6F!8m2!3d30.542167!4d114.363464!16s%2Fg%2F1vbl574s!3m5!1s0x342ea5126cd5fd9f:0xe2b79fd385a4589e!8m2!3d30.542167!4d114.363464!16s%2Fg%2F1vbl574s?entry=ttu'}>
-                Wuhan University Haking State Key Laboratory of Water Resources Engineering and Management
+                Wuhan University State Key Laboratory of Water Resources Engineering and Management
               </Link>
             </p>
             {lastUpdated && (

@@ -55,7 +55,7 @@ export const query = graphql`
       }
     }
     # sort mdx files by project start ascending
-    allMdx(sort: { fields: frontmatter___projectStart, order: DESC }) {
+    allMdx(sort: { fields: frontmatter___rank, order: ASC }) {
       edges {
         node {
           frontmatter {

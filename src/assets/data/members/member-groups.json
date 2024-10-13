@@ -13,6 +13,7 @@
       "affiliationPeriodEnd": "2025-06-30T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
     },
+
     "2": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/profile.jpg",
       "firstName": "Qilong",
@@ -26,6 +27,7 @@
       "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
     },
+
     "3": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/profile.jpg",
       "firstName": "Deng",
@@ -39,6 +41,7 @@
       "affiliationPeriodEnd": "2027-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/cv.pdf"
     },
+
     "4": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
       "firstName": "Qingfeng",
@@ -52,31 +55,33 @@
       "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
     },
+
     "5": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
-      "firstName": "Qingfeng",
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/jinhaozhang/profile.jpg",
+      "firstName": "Jinhao",
       "lastName": "Zhang",
       "position": "PhD Student",
-      "email": "stephen_chow_zqf@163.com",
+      "email": "2021302191026@whu.edu.cn",
       "introduction": [
-        "Qingfeng became a Healthy Cities Lab member as a Ph.D. student in the School of Water Resources and Hydropower Engineering at Wuhan University since Sept. 2024. His current research interests focus on urban sprawl patterns, urban livability assessment and urban carbon monitoring. He obtained his bachelor's degree (Overall assessment ranking: 1/41) in Hydrology and Water Resources Engineering at Northwest A&F University (NWAFU), China. And his bachelor's thesis was selected as one of the top 100 papers of the university. Prior to joining the Healthy Cities Lab, he worked on projects related to eco-hydrology, extreme droughts, big data platforms, visual aids and IoT builds."
+        "Jinhao joined the Healthy Cities Lab in October 2024. He is currently a senior undergraduate student in Hydrology and Water Resources Engineering at Wuhan University (WHU) and has been granted the direct admission to the “Water-Carbon Cycles and Carbon Neutrality” Pilot PhD Program at WHU in 2025 without entrance examination due to good academic performances. His current research interests focus on single-layer urban canopy model, urban carbon monitoring and urban water-heat-carbon coupling."
       ],
-      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
-      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
+      "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2030-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/jinhaozhang/cv.pdf"
     },
+    
     "6": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
-      "firstName": "Qingfeng",
-      "lastName": "Zhang",
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/zhangchizhou/profile.jpg",
+      "firstName": "Zhangchi",
+      "lastName": "Zhou",
       "position": "PhD Student",
-      "email": "stephen_chow_zqf@163.com",
+      "email": "2021302191087@whu.edu.cn",
       "introduction": [
-        "Qingfeng became a Healthy Cities Lab member as a Ph.D. student in the School of Water Resources and Hydropower Engineering at Wuhan University since Sept. 2024. His current research interests focus on urban sprawl patterns, urban livability assessment and urban carbon monitoring. He obtained his bachelor's degree (Overall assessment ranking: 1/41) in Hydrology and Water Resources Engineering at Northwest A&F University (NWAFU), China. And his bachelor's thesis was selected as one of the top 100 papers of the university. Prior to joining the Healthy Cities Lab, he worked on projects related to eco-hydrology, extreme droughts, big data platforms, visual aids and IoT builds."
+        "Zhangchi Zhou is currently a senior undergraduate student in Hydrology and Water Resources Engineering and affiliated with“Water-Carbon Cycles and Carbon Neutrality” Pilot Program at Wuhan University. He has been granted the qualification of being recommended for direct admission to an academic master's degree with high GPA (Top 4 in the class). His current research interests include the simulation of spatiotemporal distribution of carbon emissions, urban flux towers, and carbon flux monitoring. During his undergraduate studies, he has been awarded the title of "Outstanding Student" at Wuhan University for three consecutive years."
       ],
-      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
-      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
+      "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2028-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/zhangchizhou/cv.pdf"
     }
   }
 }

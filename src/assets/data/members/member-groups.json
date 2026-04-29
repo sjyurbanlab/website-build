@@ -83,5 +83,18 @@
       "affiliationPeriodEnd": "2028-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/zhangchizhou/cv.pdf"
     }
+        "7": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/zhaolongqing/zhaolongqing.jpg",
+      "firstName": "Longqing",
+      "lastName": "Zhao",
+      "position": "PHD Student",
+      "email": "longqingzhao@whu.edu.cn",
+      "introduction": [
+        "Longqing Zhao became a Ph.D. student at the Healthy Cities Laboratory, School of Hydraulic and Hydropower Engineering, Wuhan University since 2025. He received his master’s degree from Wuhan University in 2025. His research interests include (1) high spatiotemporal resolution urban rainfall nowcasting. (2) urban inundation risk analysis.(3) Flooding Risks in Wuhan City under Future Land Use Change Scenarios."
+      ],
+      "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/zhaolongqing/cv.pdf"
+    }
   }
 }

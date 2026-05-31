@@ -21,7 +21,7 @@ export const routes: Route[] = [
       },
       { 
         path: '/urban-hydro-climate', 
-        title: 'Urban Hydro-Climate',
+        title: 'AI + Urban Hydro Meteorology',
       },
       {
         path: '/urban-green-infrastructure',

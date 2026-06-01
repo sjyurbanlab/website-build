@@ -1,5 +1,55 @@
 {
   "1": {
+    "title": "AI-uWRF: A Physics-Informed Spatiotemporal Diffusion Transformer for High-Resolution Urban Weather Emulation",
+    "organiser": " European Geosciences Union 2026 (EGU)",
+    "location": "Vienna, Austria",
+    "labParticipants": ["Prof.Jiyun Song, Qingfeng Zhang"],
+    "eventPeriodStart": "2026-05-5T00:00:00.000Z",
+    "logos": [
+      "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
+    ]
+  },
+  "2": {
+    "title": "An Inductive Spatio-Temporal Graph Network for Fine-Resolution Urban Weather Nowcasting Integrating Multi-Source Data and Physical Constraints",
+    "organiser": " European Geosciences Union 2026 (EGU)",
+    "location": "Vienna, Austria",
+    "labParticipants": ["Qingfeng Zhang, Prof.Jiyun Song"],
+    "eventPeriodStart": "2026-05-8T00:00:00.000Z",
+    "logos": [
+      "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
+    ]
+  },
+  "3": {
+    "title": "Chained Nowcasting of High Spatiotemporal Resolution Urban Rainfall and Inundation Risk Using Deep Learning",
+    "organiser": " European Geosciences Union 2026 (EGU)",
+    "location": "Vienna, Austria",
+    "labParticipants": ["Longqing Zhao, Prof.Jiyun Song"],
+    "eventPeriodStart": "2026-05-7T00:00:00.000Z",
+    "logos": [
+      "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
+    ]
+  },
+  "4": {
+    "title": "Modeling the Impact of Vegetation Dynamics on Urban Microclimate and Building Energy Demand",
+    "organiser": " European Geosciences Union 2026 (EGU)",
+    "location": "Vienna, Austria",
+    "labParticipants": ["Jinhao Zhang, Prof.Jiyun Song"],
+    "eventPeriodStart": "2026-05-8T00:00:00.000Z",
+    "logos": [
+      "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
+    ]
+  },
+  "5": {
+    "title": "High Spatiotemporal Mapping of Urban Evapotranspiration via a Hybrid Physics-Based and Machine Learning Framework",
+    "organiser": " European Geosciences Union 2026 (EGU)",
+    "location": "Vienna, Austria",
+    "labParticipants": ["Zhangchi Zhou, Prof.Jiyun Song"],
+    "eventPeriodStart": "2026-05-4T00:00:00.000Z",
+    "logos": [
+      "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
+    ]
+  },
+  "7": {
     "title": "Development of a Street-Level Human Thermal Stress Prediction and Warning System in Hong Kong",
     "organiser": " American Meteorology Society (AMS) Annual Meeting",
     "location": "Online",
@@ -9,7 +59,7 @@
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
     ]
   },
-  "2": {
+  "8": {
     "title": "Fine-Resolution Mapping of Street Microclimate and Pedestrian-Level Heat Stress in City Neighbourhoods with Blue Spaces during Heatwave Periods: A Case Study in Shanghai, China",
     "organiser": " American Meteorology Society (AMS) Annual Meeting",
     "location": "Online",
@@ -19,7 +69,7 @@
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/ams-logo.png"
     ]
   },
-  "3": {
+  "9": {
     "title": "The synergistic effect of urban heat and moisture islands in a compact high-rise city: mechanisms and mitigation strategies (second-place award for outstanding poster presentation)",
     "organiser": " American Meteorology Society (AMS)'s 13th Conference on Environment and Health on 102nd Annual Meeting",
     "location": "Online",
@@ -30,7 +80,7 @@
     ],
     "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/AMS/UHIUMIposter.pdf"
   },
-  "4": {
+  "10": {
     "title": "Urban climate–human coupling system: model development and case study",
     "organiser": " American Meteorology Society (AMS)'s 13th Conference on Environment and Health on 102nd Annual Meeting",
     "location": "Online",
@@ -41,7 +91,7 @@
     ],
     "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/AMS/UCMHEATSposter.pdf"
   },
-  "5": {
+  "11": {
     "title": "Sustainable environmental adaptation strategies towards smart and healthy cities (Invited talk)",
     "organiser": "Research Seminar of HKU Geography",
     "location": "Online via Zoom",
@@ -53,7 +103,7 @@
     ],
     "link": "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/sustainable-environment/poster.pdf"
   },
-  "6": {
+  "12": {
     "title": "Simulation of indoor-outdoor exchanges of heat and pollutants for a naturally ventilated office building in London",
     "organiser": "American Meteorological Society (AMS) The 10th International Conference on Urban Climate/ 14th Symposium on the Urban Environment",
     "location": "New York, NY, USA",
@@ -64,7 +114,7 @@
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/simulation-of-indoor-outdoor-exchanges/iauc-logo.png"
     ]
   },
-  "7": {
+  "13": {
     "title": "Investigating the impact of building design on indoor thermal comfort and building energy consumption for a high-rise apartment in Hangzhou China by coupling of EnergyPlus and CFD model (Invited talk)",
     "organiser": "The 8th International Conference on Sustainable Development in Building and Environment",
     "location": "Chongqing, China",
@@ -74,7 +124,7 @@
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/impact-of-building-design/sudbe-logo.png"
     ]
   },
-  "8": {
+  "14": {
     "title": "Urban land-atmospheric coupling system: Model development and applications",
     "organiser": "American Meteorological Society (AMS) The 32nd Conference on Agricultural and Forest Meteorology/ 22nd Symposium on Boundary Layers and Turbulence/ Third Conference on Biogeosciences",
     "location": "Salt Lake City, UT, USA",
@@ -84,7 +134,7 @@
       "https://sjyurbanlab.github.io/website-assets/conferences-and-meetings/urban-land-atmospheric-coupling/ams-logo.png"
     ]
   },
-  "7": {
+  "15": {
     "title": "Quantifying the boundary-layer dynamics of carbon dioxide from a built environment using a coupled urban land-atmospheric model",
     "organiser": "American Geophysical Union (AGU) Fall Meeting",
     "location": "San Francisco, CA, USA",

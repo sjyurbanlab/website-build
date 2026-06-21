@@ -1,34 +1,20 @@
 {
   "Key Research Members": {
     "1": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/profile.jpg",
-      "firstName": "Dachuan",
-      "lastName": "Shi",
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
+      "firstName": "Qingfeng",
+      "lastName": "Zhang",
       "position": "PhD Student",
-      "email": "shidc26@connect.hku.hk",
+      "email": "qingfengzhang@whu.edu.cn",
       "introduction": [
-        "Dachuan Shi became a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong since July 2020. His research interests include (1) urban blue and green space optimization, (2) human-environment adaptive thermal stress modelling, and (3) urban building energy simulation, etc. Before this role, he received his Master's degree in Building and Civil Engineering in 2019, from Chongqing University, focusing on the effect of cool roof and green roof on the building energy efficiency and urban thermal environment, including monitoring, modelling, and simulation. Additionally, he obtained his bachelor's degree in Building Environment and Facility Engineering in 2016, from Jiangsu University of Science and technology. In the past years, he has published 26 SCI articles, got 4 patents, and 3 national-level prizes, and he gained the China National Postgraduate Scholarship twice."
+        "Qingfeng Zhang is a Ph.D. candidate at Wuhan University under the supervision of Prof. Jiyun Song, having ranked first in his B.Eng. at Northwest A&F University and been exempted from exams for direct doctoral admission, with his bachelor's thesis selected as a Top 100 Distinguished Paper. His research integrates urban climate dynamics, land-atmosphere interactions, and physics-informed spatiotemporal deep learning to address heat extremes and climate-just urban resilience, developing causal machine learning frameworks to decouple urbanization-induced thermal effects across 1,690 Chinese cities, a physics-guided deep learning system for 5-meter urban thermal stress mapping (reducing heat stress by 21.1%), and a physics-informed STGNN for station-to-grid weather nowcasting that reduces WRF biases by 25–67%—with corresponding manuscripts under review at Science Advances, npj Urban Sustainability, and Atmospheric Chemistry and Physics. He has delivered numerous oral presentations at EGU, AOGS, ICUC12, and other international forums, and has won over a dozen national and provincial awards, including grand prizes in water resources and robotics competitions. He is proficient in WRF-UCM, HPC, PyTorch-based deep learning, causal inference, and geospatial analysis."
       ],
-      "affiliationPeriodStart": "2020-06-30T16:00:00.000Z",
-      "affiliationPeriodEnd": "2025-06-30T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
+      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
     },
-
+    
     "2": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/profile.jpg",
-      "firstName": "Qilong",
-      "lastName": "Zhong",
-      "position": "PhD Student",
-      "email": "u3008374@connect.hku.hk",
-      "introduction": [
-        "Qilong became a member of Healthy Cities Lab as a Ph.D. student in the Department of Mechanical Engineering at the University of Hong Kong (HKU) since Sept. 2021. He obtained his B.S. in Mechanics and Aerospace Engineering (MAE) at Southern University of Science and Technology (SUSTech), China. His key research interest is in urban fluid mechanics via both experiments and CFD simulations. His past research efforts are mainly on the investigation of multi-scale microclimate on human thermal comfort and health in both indoor and outdoor environments, including (1) COVID-19 pandemics and human health: Protective facemask-induced facial thermal stress and breathing burden during exercise in gyms, and (2) Urban blue space and human health: City cooling via urban lake breeze circulation and optimized lakefront urban design."
-      ],
-      "affiliationPeriodStart": "2021-08-31T16:00:00.000Z",
-      "affiliationPeriodEnd": "2025-08-31T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/cv.pdf"
-    },
-
-    "3": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/profile.jpg",
       "firstName": "Deng",
       "lastName": "Zhang",
@@ -42,49 +28,35 @@
       "cv": "https://sjyurbanlab.github.io/website-assets/members/dengzhang/cv.pdf"
     },
 
-    "4": {
-      "avatar": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/profile.jpg",
-      "firstName": "Qingfeng",
-      "lastName": "Zhang",
-      "position": "PhD Student",
-      "email": "qingfengzhang@whu.edu.cn",
-      "introduction": [
-        "Qingfeng became a Healthy Cities Lab member as a Ph.D. student in the School of Water Resources and Hydropower Engineering at Wuhan University since Sept. 2024. His current research interests focus on urban sprawl patterns, urban livability assessment and urban carbon monitoring. He obtained his bachelor's degree (Overall assessment ranking: 1/41) in Hydrology and Water Resources Engineering at Northwest A&F University (NWAFU), China. And his bachelor's thesis was selected as one of the top 100 papers of the university. Prior to joining the Healthy Cities Lab, he worked on projects related to eco-hydrology, extreme droughts, big data platforms, visual aids and IoT builds."
-      ],
-      "affiliationPeriodStart": "2024-09-01T16:00:00.000Z",
-      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
-      "cv": "https://sjyurbanlab.github.io/website-assets/members/qingfengzhang/cv.pdf"
-    },
-
-    "5": {
+    "3": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/jinhaozhang/profile.jpg",
       "firstName": "Jinhao",
       "lastName": "Zhang",
       "position": "PhD Student",
       "email": "2021302191026@whu.edu.cn",
       "introduction": [
-        "Jinhao joined the Healthy Cities Lab in October 2024. He is currently a senior undergraduate student in Hydrology and Water Resources Engineering at Wuhan University (WHU) and has been granted the direct admission to the Water-Carbon Cycles and Carbon Neutrality Pilot PhD Program at WHU in 2025 without entrance examination due to good academic performances. His current research interests focus on single-layer urban canopy model, urban carbon monitoring and urban water-heat-carbon coupling."
+        "Jinhao Zhang is a direct-entry Ph.D. candidate in the School of Water Resources and Hydropower Engineering (affiliated with the Water-Carbon Cycles and Carbon Neutrality Pilot Program) at Wuhan University (WHU) supervised by Prof. Jiyun Song. He completed his B.Eng. at WHU with an Outstanding Undergraduate Graduation Thesis Award and multiple university honors for leadership and volunteerism. His research interests encompass urban hydro-meteorological processes, land-atmosphere interactions, physics-driven microclimate simulation, urban canopy model (UCM) development, and multi-objective optimization for resilient low-carbon cities. He has delivered oral and poster presentations at major international conferences such as EGU, AOGS, ICUC12, and the China Water Forum and has undertaken academic exchanges at The University of Hong Kong and the National University of Singapore. He is proficient in UCM, MATLAB, Python, GAMS, ArcGIS, and Revit."
       ],
       "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
       "affiliationPeriodEnd": "2030-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/jinhaozhang/cv.pdf"
     },
     
-    "6": {
+    "4": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/zhangchizhou/profile.jpg",
       "firstName": "Zhangchi",
       "lastName": "Zhou",
       "position": "MEng Student",
       "email": "2021302191087@whu.edu.cn",
       "introduction": [
-        "Zhangchi Zhou is currently a senior undergraduate student in Hydrology and Water Resources Engineering and affiliated with the Water-Carbon Cycles and Carbon Neutrality Pilot Program at Wuhan University. He has been granted the qualification of being recommended for direct admission to an academic master's degree with high GPA (Top 4 in the class). His current research interests include the simulation of spatiotemporal distribution of carbon emissions, urban flux towers, and carbon flux monitoring. During his undergraduate studies, he has been awarded the title of 'Outstanding Student' at Wuhan University for three consecutive years."
+        "Zhangchi Zhou joined Healthy Cities Lab as an MPhil student at Wuhan University (WHU) since 2025. He obtained his B.Eng. degree in School of Water Resources and Hydropower Engineering (affiliated with the Water-Carbon Cycles and Carbon Neutrality Pilot Program) at WHU, graduating as an Outstanding Graduate, and has been granted direct admission to an academic master's program with a high GPA (ranked Top 4 in his class). His current research interests focus on two areas: (1) Urban Land–Atmosphere Interaction: Investigating the seasonal and diurnal variations of urban energy fluxes and CO2 fluxes via eddy covariance measurements and wind lidar; (2) AI + Urban Hydro Meteorology: Integrating fixed flux tower and mobile flux observations with machine learning methods to achieve high spatiotemporal mapping of urban evapotranspiration."
       ],
       "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
       "affiliationPeriodEnd": "2028-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/zhangchizhou/cv.pdf"
     },
 
-    "7": {
+    "5": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/zhaolongqing/zhaolongqing.jpg",
       "firstName": "Longqing",
       "lastName": "Zhao",
@@ -96,6 +68,62 @@
       "affiliationPeriodStart": "2025-09-01T16:00:00.000Z",
       "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/zhaolongqing/cv.pdf"
+    },
+
+    "6": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/RuiqiPeng/profile.jpg",
+      "firstName": "Ruiqi",
+      "lastName": "Peng",
+      "position": "PhD Student",
+      "email": "ruiqipeng@whu.edu.cn",
+      "introduction": [
+        "Ruiqi Peng is a Ph.D. candidate at Wuhan University’s School of Water Resources and Hydropower Engineering, having completed his B.Eng. in the Carbon Neutrality Pilot Class with a strong GPA of 3.78/4.0 under the supervision of Prof. Song. His honors include a National Encouragement Scholarship and multiple university awards, along with a provincial prize in mathematical modeling. His research focuses on urban water–heat–carbon coupling mechanisms, integrating the WRF (Weather Research and Forecasting) model with spatiotemporal data analysis to investigate multi-element interactions at the city scale. During his undergraduate Carbon Neutrality Pilot Program at WHU, he has developed solid skills in numerical modeling, geospatial analysis, and scientific programming (Python, MATLAB), and gained hands-on experiences through field measurement campaigns and academic exchange visits to the University of Hong Kong. He is motivated to apply physics-informed modeling to inform carbon-neutral urban planning and is always eager to take on new challenges in upcoming research."
+      ],
+      "affiliationPeriodStart": "2026-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2031-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/RuiqiPeng/cv.pdf"
+    },
+
+    "7": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/KaiyuZhang/profile.jpg",
+      "firstName": "Kaiyu",
+      "lastName": "Zhang",
+      "position": "PhD Student",
+      "email": "pandium@whu.edu.cn",
+      "introduction": [
+        "Kaiyu Zhang is a highly motivated PhD student (starting from Sep 2016) at Wuhan University’s School of Water Resources and Hydropower Engineering under the supervision of Prof. Song, having completed his B.Eng. in the same school with a minor in Computer Science, maintaining GPAs above 3.5/4.0. His research interests lie at the intersection of mobile mapping, urban meteorology, carbon emissions, and spatiotemporal machine learning, as demonstrated by his undergraduate thesis on high-resolution road CO₂ mapping in Wuhan using ensemble models and SHAP/PDP analysis, and his minor thesis on a full-stack supervision log system integrating RAG-based voice dictation. He has also contributed to professional projects, including an automated Civil 3D plugin and an intelligent supervision system, and earned national and university-level competition awards in water conservancy and flood monitoring. Proficient in multiple programming languages (Python, Java, C++, etc.), IoT platforms, and software tools, with English proficiency at IELTS 6.0, he combines strong technical skills with applied environmental engineering research."
+      ],
+      "affiliationPeriodStart": "2026-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2031-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/KaiyuZhang/cv.pdf"
+    },
+
+    "8": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/TiantaoJia/profile.jpg",
+      "firstName": "Tiantao",
+      "lastName": "Jia",
+      "position": "MEng Student",
+      "email": "2049385306@qq.com",
+      "introduction": [
+        "Tiantao Jia joined Healthy Cities Lab as a master’s student majoring in Hydrology and Water Resources at Wuhan University under the supervision of Prof. Song. He earned his Bachelor's degree in Soil and Water Conservation from Northwest A&F University with an outstanding GPA of 3.71/4.0 and ranking first among 65 students. and was admitted to Wuhan University through postgraduate recommendation. He has been recognized with the National Scholarship (twice), first-class professional scholarships, and over ten provincial or national awards in mathematics, mathematical modeling, AI innovation, and programming competitions. He is proficient in ArcGIS, SPSS, Origin, Python, and CAD, demonstrating a solid foundation for interdisciplinary environmental research. His research focuses on the impacts of urbanization on regional climate, as well as the characteristics and associated environmental and social risks of compound extreme weather events. He hopes to deepen relevant theoretical research and provide scientific support for sustainable urban development."
+      ],
+      "affiliationPeriodStart": "2026-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/TiantaoJia/cv.pdf"
+    },
+
+    "9": {
+      "avatar": "https://sjyurbanlab.github.io/website-assets/members/XingmingHuang/profile.jpg",
+      "firstName": "Tiantao",
+      "lastName": "Jia",
+      "position": "MEng Student",
+      "email": "hxingming2004@163.com",
+      "introduction": [
+        "Xingming Huang is currently an M.S. student (starting from Sep 2026) in Hydrology and Water Resources at Wuhan University supervised Prof. Jiyun Song, having earned his B.Eng. in the same field from Hohai University with a thesis awarded as University‑level Excellent Undergraduate Thesis. His research interests focus on multi‑scale urban meteorological modeling, high‑resolution weather simulation, urban climate extremes, and machine‑learning‑based fusion and downscaling of multi‑source remote sensing data, exemplified by his undergraduate project using Random Forest and LSTM to improve soil moisture spatial resolution over Anhui Province. He has actively participated in competitions, winning prizes in provincial and national mathematics contests, a water model design competition, and leading an innovation program on satellite soil moisture fusion. He also attended Peking University’s Summer School on Intelligent Watershed Management, gaining training in IWS and CWatM. He achieved a strong graduate entrance exam score of 396, and is proficient in MATLAB, Python, hydrological analysis tools, and machine learning frameworks."
+      ],
+      "affiliationPeriodStart": "2026-09-01T16:00:00.000Z",
+      "affiliationPeriodEnd": "2029-09-01T10:00:00.000Z",
+      "cv": "https://sjyurbanlab.github.io/website-assets/members/XingmingHuang/cv.pdf"
     }
   }
 }

@@ -13,8 +13,10 @@
       "affiliationPeriodStart": "2020-07-05T16:00:00.000Z",
       "affiliationPeriodEnd": "2020-09-20T15:59:59.999Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/seanchok/cv.pdf"
+      }
     },
-    "2": {
+    "MPHIL STUDENTS": {
+    "1": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/profile.jpg",
       "firstName": "Xinjie",
       "lastName": "Huang",
@@ -26,8 +28,10 @@
       "affiliationPeriodStart": "2020-08-31T16:00:00.000Z",
       "affiliationPeriodEnd": "2022-08-31T10:00:00.000Z",
       "cv": "https://sjyurbanlab.github.io/website-assets/members/xinjiehuang/cv.pdf"
+      }
     },
-    "3": {
+    "PHD STUDENTS": {
+    "1": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/profile.jpg",
       "firstName": "Dachuan",
       "lastName": "Shi",
@@ -41,7 +45,7 @@
       "cv": "https://sjyurbanlab.github.io/website-assets/members/dachuanshi/cv.pdf"
     },
 
-    "4": {
+    "2": {
       "avatar": "https://sjyurbanlab.github.io/website-assets/members/qilongzhong/profile.jpg",
       "firstName": "Qilong",
       "lastName": "Zhong",
